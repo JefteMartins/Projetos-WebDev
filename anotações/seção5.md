@@ -91,3 +91,6 @@ diferença da classe conteiner e conteiner-fluid
 ambos ja sao responsivos independente do tamanho da tela mas o fluid pega a tela toda
 ###### 75. Bootstrap Buttons & Font Awesome
 adicionando botoes do bootstrap e indo no site fontawesome.com pra pegar os icons
+###### 76. Styling Our Website Challenges and Solutions
+prática de estilização do site
+
