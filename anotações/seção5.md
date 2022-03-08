@@ -93,4 +93,6 @@ ambos ja sao responsivos independente do tamanho da tela mas o fluid pega a tela
 adicionando botoes do bootstrap e indo no site fontawesome.com pra pegar os icons
 ###### 76. Styling Our Website Challenges and Solutions
 prática de estilização do site
+###### 77. Bootstrap Challenge 1
+passando o desafio
 

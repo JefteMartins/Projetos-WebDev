@@ -5,6 +5,13 @@ h1{
     font-size: 3.5rem;
     line-height: 1.5;
 }
+h3{
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 900;
+}
+p{
+    color: #8f8f8f;
+}
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -39,7 +46,17 @@ body{
     transform: rotate(25deg);
     margin: 0% 0% 0% 25%;
 }
-
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
 /*------------------ IDS ------------------*/
 
 #title{
@@ -47,5 +64,8 @@ body{
     color: aliceblue;
 }
 
+#features{
+    padding: 7% 15%;
+}
 
 /*------------------ Navbar ------------------*/
