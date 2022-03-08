@@ -30,3 +30,24 @@ localiza o elemento de acordo com o elemento pai que ele está inserido
 ###### 49. The Dark Art of Centering Elements with CSS
 nao sei o que falar sobre isso vou ter que estudar todo dia ate entender bem
 ##### 50. Font styling in our personal website
+estilização de fonte
+##### 51. Learn More About Typography
+link para sessão do curso com aulas de tipografia
+##### 52. Adding content to our website
+colocando umas imagens que ela disponibilizou
+###### 53. CSS Sizing
+usando font size e etc
+###### 54. 55. 56. CSS challenges
+challenges
+###### 58. Css Float and clear
+usando o float da img para left e deixar eles (imagem e texto abaixo) alinhados horizontalmente.
+clear left vai fazer a imagem ficar acima do texto a esquerda
+###### 59. CSS Challenge
+outro challenge
+###### 60. Stylised Personal Site Solution Walkthrough
+resolução de como estilizar o site resolvendo o challenge anterior
+###### 61. practice
+replicar essa landing page aqui
+https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3
+###### 62. Tip from Angela - Nothing Easy is Worth Doing!
+motivacional
