@@ -95,4 +95,10 @@ adicionando botoes do bootstrap e indo no site fontawesome.com pra pegar os icon
 prática de estilização do site
 ###### 77. Bootstrap Challenge 1
 passando o desafio
+###### 78. Solution to Bootstrap Challenge 1
+resolvendo o desafio
+###### 79. Tip from Angela- How to Deal with Procrastination
+motivacional
+###### 80. The Bootstrap Carousel Part 1
+estilizalção simples
 
