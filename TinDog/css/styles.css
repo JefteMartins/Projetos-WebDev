@@ -5,11 +5,11 @@ h1 {
   font-size: 3.5rem;
   line-height: 1.5;
 }
-h2{
-    font-family: "Monserrat", sans-serif;
-    font-weight: 900;
-    font-size: 3rem;
-    line-height: 1.5;
+h2 {
+  font-family: "Monserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 h3 {
   font-family: "Monserrat", sans-serif;
@@ -52,13 +52,13 @@ body {
   transform: rotate(25deg);
   margin: 0% 0% 0% 25%;
 }
-.testimonial-image{
-    width: 10%;
-    border-radius: 100%;
-    margin: 20px;
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
 }
 /*continua*/
-.carousel-item{
+.carousel-item {
   padding: 7% 15%;
 }
 .feature-box {
@@ -73,9 +73,12 @@ body {
   color: #ff4c68;
 }
 
-.press-logo{
-    width: 15%;
-    margin: 20px 20px 50px;
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.pricing-column {
+  padding: 3% 2%;
 }
 /*------------------ IDS ------------------*/
 
@@ -88,13 +91,17 @@ body {
   padding: 7% 15%;
 }
 #testimonials {
-    padding: 7% 15%;
-    text-align: center;
-    background-color: #ef8172;
-    color: aliceblue;
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: aliceblue;
 }
-#press{
-    background-color: #ef8172;
-    text-align: center;
-    padding-bottom: 3%;
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#pricing {
+  padding: 100px;
+  text-align: center;
 }
