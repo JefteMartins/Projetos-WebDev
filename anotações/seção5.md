@@ -101,4 +101,9 @@ resolvendo o desafio
 motivacional
 ###### 80. The Bootstrap Carousel Part 1
 estilizalção simples
+###### 81. The bootstrap Carousel 2
+uso de carousel, classe do bootstrap
+###### 82. Bootstrap Cards
+uso de card com a classe card, tendo um card-header e um card body 
+###### 83. The CSS Z-Index and Stacking Order
 
