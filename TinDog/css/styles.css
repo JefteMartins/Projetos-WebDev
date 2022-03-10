@@ -58,6 +58,9 @@ body {
     margin: 20px;
 }
 /*continua*/
+.carousel-item{
+  padding: 7% 15%;
+}
 .feature-box {
   text-align: center;
   padding: 5%;
