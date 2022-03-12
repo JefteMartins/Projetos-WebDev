@@ -106,4 +106,6 @@ uso de carousel, classe do bootstrap
 ###### 82. Bootstrap Cards
 uso de card com a classe card, tendo um card-header e um card body 
 ###### 83. The CSS Z-Index and Stacking Order
-
+tem que ter posicionamento
+0 é o default o 1 fica em cima e o -1 embaixo
+se o item que vai ficar em cima vem depois, voce pode nao precisar usar z-index. Ja que com um absolute ficando embaixo um outro relative poderia sobrepor

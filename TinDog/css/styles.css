@@ -24,7 +24,7 @@ body {
 /*------------------ CLASSES ------------------*/
 /*conteiner*/
 .conteiner-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 /*Navbar*/
 .navbar {
@@ -47,10 +47,13 @@ body {
   margin: 5% 3% 5% 0%;
 }
 /*image*/
+
 .title-image {
-  width: 60%;
+  width: 50%;
   transform: rotate(25deg);
-  margin: 0% 0% 0% 25%;
+  position: absolute;
+  right: 30%;
+  
 }
 .testimonial-image {
   width: 10%;
@@ -80,6 +83,9 @@ body {
 .pricing-column {
   padding: 3% 2%;
 }
+.cta-heading{
+  font-family: 'Montserrat-Black', sans-serif;
+}
 /*------------------ IDS ------------------*/
 
 #title {
@@ -89,6 +95,8 @@ body {
 
 #features {
   padding: 7% 15%;
+  background-color: aliceblue;
+  position: relative;
 }
 #testimonials {
   padding: 7% 15%;
@@ -104,4 +112,20 @@ body {
 #pricing {
   padding: 100px;
   text-align: center;
+}
+#cta{
+  background-color: #ff4c68;
+  color: aliceblue;
+  padding: 7% 15%;
+}
+/*------------------ MEDIA QUERIES ------------------*/
+@media screen and (max-width: 1024px){
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+    color: black;
+  }
 }
