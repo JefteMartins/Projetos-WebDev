@@ -162,3 +162,5 @@ refatorando o codigo
 ###### 91. Advanced CSS - Selector Priority
 inline css tem prioridde em cima de external css
 inline> external (id > class > tag)
+###### 92. Completing the Website
+revendo o site e finalizando
