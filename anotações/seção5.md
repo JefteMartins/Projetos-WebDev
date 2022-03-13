@@ -109,3 +109,23 @@ uso de card com a classe card, tendo um card-header e um card body
 tem que ter posicionamento
 0 é o default o 1 fica em cima e o -1 embaixo
 se o item que vai ficar em cima vem depois, voce pode nao precisar usar z-index. Ja que com um absolute ficando embaixo um outro relative poderia sobrepor
+
+######  84. Media Query Breakpoints
+basicamente sobre media query, que são "gatilhos" para mudar algo no código
+`@media screen and (max-width: 1024px){
+	tananana: 328913671; /* vai acontecer o tanana quando a tela tiver menos que 1024 píxels/*
+}`
+###### 85. Bootstrap Challenge 2
+passando desafio
+###### 86. Bootrstrap Challenge 2 Solution
+resolvendo o desafio da 85.
+###### 87. How to become a Better Programmer - Code Refactoring
+Code refactoring
+1. Readability
+2. Modularity
+3. Efficiency
+4. Length
+###### 88. Put it into Practice - Refactor our Website Part 1
+`{h1, h2, h3{
+ /*exemplo para taggear várias tags de uma vez só*/
+}`

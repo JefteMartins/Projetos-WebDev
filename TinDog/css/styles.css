@@ -1,18 +1,10 @@
 /*------------------ TAGS ------------------*/
-h1 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
-h2 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Monserrat", sans-serif;
   font-weight: 900;
-  font-size: 3rem;
-  line-height: 1.5;
 }
 h3 {
-  font-family: "Monserrat", sans-serif;
+  font-size: 1.5rem;
   font-weight: 900;
 }
 p {
@@ -22,6 +14,12 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 /*------------------ CLASSES ------------------*/
+.big-heading{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
 /*conteiner*/
 .conteiner-fluid {
   padding: 3% 15% 7%;
@@ -60,7 +58,15 @@ body {
   border-radius: 100%;
   margin: 20px;
 }
-/*continua*/
+/*etc*/
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-text{
+  font-size: 3Rrem;
+  line-height: 1.5;
+}
 .carousel-item {
   padding: 7% 15%;
 }
@@ -83,8 +89,19 @@ body {
 .pricing-column {
   padding: 3% 2%;
 }
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
 .cta-heading{
-  font-family: 'Montserrat-Black', sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: center;
+}
+.social-icon{
+  padding: 20px 10px;
 }
 /*------------------ IDS ------------------*/
 
@@ -117,6 +134,11 @@ body {
   background-color: #ff4c68;
   color: aliceblue;
   padding: 7% 15%;
+  text-align: center;
+}
+#footer{
+  padding: 7% 15%;
+  text-align: center;
 }
 /*------------------ MEDIA QUERIES ------------------*/
 @media screen and (max-width: 1024px){
