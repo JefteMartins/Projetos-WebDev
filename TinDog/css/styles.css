@@ -56,6 +56,15 @@ body {
   border-radius: 100%;
   margin: 20px;
 }
+/*sections*/
+.colored-section{
+  background-color: #ff4c68;
+  color: aliceblue;
+}
+.white-section{
+  background-color: aliceblue;
+}
+
 /*etc*/
 .feature-title{
   font-size: 1.5rem;
@@ -115,7 +124,6 @@ body {
 }
 #testimonials {
   background-color: #ef8172;
-  color: aliceblue;
 }
 #press {
   background-color: #ef8172;
@@ -124,10 +132,7 @@ body {
 #pricing {
   padding: 100px;
 }
-#cta{
-  background-color: #ff4c68;
-  color: aliceblue;
-}
+
 
 /*------------------ MEDIA QUERIES ------------------*/
 @media screen and (max-width: 1024px){

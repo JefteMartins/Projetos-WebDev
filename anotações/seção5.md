@@ -157,4 +157,8 @@ e não em
 <div id="title">
 	<h1>teste</h1>
 </div>
-
+###### 90. Refactoring our Website Part 2
+refatorando o codigo
+###### 91. Advanced CSS - Selector Priority
+inline css tem prioridde em cima de external css
+inline> external (id > class > tag)
