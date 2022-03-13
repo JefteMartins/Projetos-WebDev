@@ -3,15 +3,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Monserrat", sans-serif;
   font-weight: 900;
 }
-h3 {
-  font-size: 1.5rem;
-  font-weight: 900;
-}
+
 p {
   color: #8f8f8f;
 }
 body {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 /*------------------ CLASSES ------------------*/
 .big-heading{
@@ -22,7 +20,7 @@ body {
 }
 /*conteiner*/
 .conteiner-fluid {
-  padding: 3% 15% 7%;
+  padding: 7% 15%;
 }
 /*Navbar*/
 .navbar {
@@ -59,6 +57,9 @@ body {
   margin: 20px;
 }
 /*etc*/
+.feature-title{
+  font-size: 1.5rem;
+}
 .section-heading{
   font-size: 3rem;
   line-height: 1.5;
@@ -67,11 +68,7 @@ body {
   font-size: 3Rrem;
   line-height: 1.5;
 }
-.carousel-item {
-  padding: 7% 15%;
-}
 .feature-box {
-  text-align: center;
   padding: 5%;
 }
 .icon {
@@ -98,7 +95,6 @@ body {
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
-  text-align: center;
 }
 .social-icon{
   padding: 20px 10px;
@@ -108,38 +104,31 @@ body {
 #title {
   background-color: #ff4c68;
   color: aliceblue;
+  text-align: left;
 }
-
+#title .conteiner-fluid {
+  padding: 3% 15% 7%;
+}
 #features {
-  padding: 7% 15%;
   background-color: aliceblue;
   position: relative;
 }
 #testimonials {
-  padding: 7% 15%;
-  text-align: center;
   background-color: #ef8172;
   color: aliceblue;
 }
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 #cta{
   background-color: #ff4c68;
   color: aliceblue;
-  padding: 7% 15%;
-  text-align: center;
 }
-#footer{
-  padding: 7% 15%;
-  text-align: center;
-}
+
 /*------------------ MEDIA QUERIES ------------------*/
 @media screen and (max-width: 1024px){
   .title-image{

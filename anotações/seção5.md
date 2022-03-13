@@ -128,4 +128,33 @@ Code refactoring
 ###### 88. Put it into Practice - Refactor our Website Part 1
 `{h1, h2, h3{
  /*exemplo para taggear várias tags de uma vez só*/
-}`
+} #title .conteiner-fluid {
+  padding: 3% 15% 7%;  /* Pega o conteiner fluid que ta dentro de title*/
+}
+`
+###### 89. Advanced CSS - Combining Selectors
+`#title .conteiner-fluid`¹
+lê-se da direita pra esquerda, entao todo conteiner fluid dentro de title vai sofrer a alteração. Se fosse algo com `#title` dentro de um conteiner fluid o código seria
+`.cointeiner-fluid #title`
+¹
+<div id="title">
+	<div class="conteiner-fluid">
+</div></div>
+²
+<div class="conteiner-fluid">
+	<div id="title">
+</div></div>
+
+outra forma seria sem o espaço
+`h1#title`
+seria o h1 com #title, nao o #title que está em um H1
+só funciona no msm level
+como em 
+<div id="title">
+	<h1>teste</h1>
+</div>
+e não em 
+<div id="title">
+	<h1>teste</h1>
+</div>
+
