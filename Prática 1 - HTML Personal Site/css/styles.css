@@ -1,0 +1,19 @@
+body {
+  background-color: #effffd;
+}
+hr{
+  border-style: dotted;
+  border-top-style: none;
+  border-color: grey;
+  border-width: 8px;
+  width: 5%;
+}
+img{
+  width: 50%;
+  height: auto;
+  border-radius: 100%;
+}
+table{
+  padding: 10px;
+
+}

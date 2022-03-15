@@ -174,3 +174,8 @@ inline> external (id > class > tag)
 ###### 92. Completing the Website
 
 revendo o site e finalizando
+###### 93. Download the Completed Website
+download do codigo feito por ela
+###### 94. Tip from Angela - Building a Programming Habit
+coach
+

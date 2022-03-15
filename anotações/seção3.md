@@ -47,3 +47,4 @@ img:hover{
 	background-color: gold;
 }deixar background da imagem dourado quando tiver o mouse em cima
 
+
