@@ -5,16 +5,27 @@ Assim creio poder melhorar minha base, treinar meu inglês e ainda aprender cois
 
 As anotações são como um diário de bordo em que eu coloco algo que foi visto na aula pra relembrar quando tiver que achar algo e rever a aula
 
+# Projetos
+<hr>
+
+## Prática 3 - Bootstrap - TinDog
+### Um site com o uso de bootstrap
+<img src="https://user-images.githubusercontent.com/36806973/158294831-df3432ba-da9d-4be1-bc89-364c1a9a9619.png" alt="tindog example" width="450"/>
+<img src="https://user-images.githubusercontent.com/36806973/158294960-c1be79d0-ff11-4f3f-b922-33f0ccdd50c2.png" alt="tindog example" width="450"/>
+<img src="https://user-images.githubusercontent.com/36806973/158295085-97354b9f-1230-41cd-ab83-dae28b93bc77.png" alt="tindog example" width="450"/>
+<img src="https://user-images.githubusercontent.com/36806973/158295189-a0369ed4-1e54-49c7-9328-42b8e49d74de.png" alt="tindog example" width="450"/>
+<img src="https://user-images.githubusercontent.com/36806973/158295468-f0e798e7-9fe6-432f-9355-6436ae7dcd2f.png" alt="tindog example" width="450"/>
+
 
 
 ## Prática 2 - CSS - My Site
 ### Um site já mais trabalhado com CSS
-<img src="https://user-images.githubusercontent.com/36806973/158284288-d31f60d6-2fbe-45c5-be58-66897e740fe6.png" alt="drawing" width="450"/>
-<img src="https://user-images.githubusercontent.com/36806973/158284354-d6d50a5f-31a6-4899-833b-1751e37dc34b.png" alt="drawing" width="450"/>
-<img src="https://user-images.githubusercontent.com/36806973/158285519-890e1b92-9634-495c-a91c-1b45c7076c5b.png" alt="drawing" width="450"/>
+<img src="https://user-images.githubusercontent.com/36806973/158284288-d31f60d6-2fbe-45c5-be58-66897e740fe6.png" alt="my site example" width="450"/>
+<img src="https://user-images.githubusercontent.com/36806973/158284354-d6d50a5f-31a6-4899-833b-1751e37dc34b.png" alt="my site example" width="450"/>
+<img src="https://user-images.githubusercontent.com/36806973/158285519-890e1b92-9634-495c-a91c-1b45c7076c5b.png" alt="my site example" width="450"/>
 
 
 
 ## Prática 1 - HTML Personal Site
 ### Apenas um site simples utilizando somente HTML
-<img src="https://user-images.githubusercontent.com/36806973/158281736-e1a831c4-9385-4211-b809-ce834d742182.png" alt="drawing" width="450"/>
+<img src="https://user-images.githubusercontent.com/36806973/158281736-e1a831c4-9385-4211-b809-ce834d742182.png" alt="html site" width="450"/>
