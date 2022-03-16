@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    
 }
 .conteiner-fluid {
     padding: 3% 15%;
@@ -52,3 +53,26 @@ body{
         width: 350px;
     }
   }
+/*contact*/
+#contact{
+    background-color: #DAB88B;
+    text-align: center;
+    padding: 7% 15%;
+}
+.contact-heading{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    margin: 125px;
+
+}
+.contact-text{
+    font-size: 1.5rem;
+}
+/*footer*/
+#footer{
+    padding: 50px 0 20px 0;
+    margin: 0;
+    background-color: #B7CADB;
+}
