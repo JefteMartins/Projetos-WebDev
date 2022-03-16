@@ -8,7 +8,7 @@ As anotações são como um diário de bordo em que eu coloco algo que foi visto
 # Projetos
 <hr>
 
-## Releitura Prática 2 e 3
+# Releitura Prática 2 e 3
 ### União dos assuntos dos 2 projetos passados com o tema do primeiro projeto.
 ### Pagina com html, css e bootstrap em uma pagina de apresentação sobre os projetos do curso até então
 <img src="https://user-images.githubusercontent.com/36806973/158504792-7c2472f7-8111-4490-abb3-9dc196c14062.png" alt="tindog example" width="450"/>
@@ -18,7 +18,7 @@ As anotações são como um diário de bordo em que eu coloco algo que foi visto
 
 
 
-## Prática 3 - Bootstrap - TinDog
+# Prática 3 - Bootstrap - TinDog
 ### Um site com o uso de bootstrap
 <img src="https://user-images.githubusercontent.com/36806973/158294831-df3432ba-da9d-4be1-bc89-364c1a9a9619.png" alt="tindog example" width="450"/>
 <img src="https://user-images.githubusercontent.com/36806973/158294960-c1be79d0-ff11-4f3f-b922-33f0ccdd50c2.png" alt="tindog example" width="450"/>
@@ -28,7 +28,7 @@ As anotações são como um diário de bordo em que eu coloco algo que foi visto
 
 
 
-## Prática 2 - CSS - My Site
+# Prática 2 - CSS - My Site
 ### Um site já mais trabalhado com CSS
 <img src="https://user-images.githubusercontent.com/36806973/158284288-d31f60d6-2fbe-45c5-be58-66897e740fe6.png" alt="my site example" width="450"/>
 <img src="https://user-images.githubusercontent.com/36806973/158284354-d6d50a5f-31a6-4899-833b-1751e37dc34b.png" alt="my site example" width="450"/>
@@ -36,7 +36,7 @@ As anotações são como um diário de bordo em que eu coloco algo que foi visto
 
 
 
-## Prática 1 - HTML Personal Site
+# Prática 1 - HTML Personal Site
 ### Apenas um site simples utilizando somente HTML
 <img src="https://user-images.githubusercontent.com/36806973/158496646-19f86716-de1a-44bd-ac5f-87f8235b9a17.png" alt="html site" width="450"/>
 
