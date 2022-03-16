@@ -8,6 +8,14 @@ As anotações são como um diário de bordo em que eu coloco algo que foi visto
 # Projetos
 <hr>
 
+## Releitura Prática 2 e 3
+### União dos assuntos dos 2 projetos passados com o tema do primeiro projeto.
+### Pagina com html, css e bootstrap em uma pagina de apresentação sobre os projetos do curso até então
+<img src="https://user-images.githubusercontent.com/36806973/158504792-7c2472f7-8111-4490-abb3-9dc196c14062.png" alt="tindog example" width="450"/>
+
+
+
+
 ## Prática 3 - Bootstrap - TinDog
 ### Um site com o uso de bootstrap
 <img src="https://user-images.githubusercontent.com/36806973/158294831-df3432ba-da9d-4be1-bc89-364c1a9a9619.png" alt="tindog example" width="450"/>
