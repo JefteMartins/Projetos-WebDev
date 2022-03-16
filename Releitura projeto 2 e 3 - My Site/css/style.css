@@ -6,6 +6,9 @@ body{
   }
 .navbar {
 }
+.sub-title{
+    font-size: 3rem;
+}
 /*Home*/
 #home{
     background-color: #B7CADB;
@@ -30,7 +33,22 @@ body{
 }
 .about-image{
     width: 400px;
+    border-radius: 5%;
+    margin: 15%;
+}
+.about-box-white{
 }
 .about-box-colored{
     background-color: #DAB88B;
 }
+.about-text{
+    margin: 15%;
+}
+.about-me{
+    font-size: 1.5rem;
+}
+@media screen and (max-width: 980px){
+    .title-image{
+        width: 350px;
+    }
+  }
