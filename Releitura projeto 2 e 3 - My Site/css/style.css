@@ -1,14 +1,14 @@
 body{
     text-align: center;
-    
+    font-family: 'Roboto', sans-serif;
 }
 .conteiner-fluid {
     padding: 3% 15%;
   }
-.navbar {
-}
-.sub-title{
-    font-size: 3rem;
+.nav-item{
+    color: #004138;
+    font-size: 1.5rem;
+    margin-right: 60px;
 }
 /*Home*/
 #home{
@@ -19,14 +19,19 @@ body{
     transform: rotate(90deg);
 }
 .title-image{
-    width: auto;
+    width: 80%;
 }
 .big-heading{
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Permanent Marker', cursive;
     font-weight: 900;
     font-size: 3.5rem;
     line-height: 1.5;
     margin-top: 125px;
+    color: #f3e9dd;
+}
+.sub-title{
+    font-size: 3rem;
+    color: #f3e9dd;
 }
 /*About*/
 #about{
@@ -36,8 +41,6 @@ body{
     width: 400px;
     border-radius: 5%;
     margin: 15%;
-}
-.about-box-white{
 }
 .about-box-colored{
     background-color: #DAB88B;
@@ -65,10 +68,11 @@ body{
     font-size: 3.5rem;
     line-height: 1.5;
     margin: 125px;
-
+    color:#004138
 }
 .contact-text{
     font-size: 1.5rem;
+    color: #004138;
 }
 /*footer*/
 #footer{
