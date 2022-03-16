@@ -10,6 +10,10 @@ body{
     font-size: 1.5rem;
     margin-right: 60px;
 }
+.nav-item:hover{
+    font-size: 1.7rem;
+    
+}
 /*Home*/
 #home{
     background-color: #B7CADB;
@@ -72,6 +76,10 @@ body{
 }
 .contact-text{
     font-size: 1.5rem;
+    color: #004138;
+}
+.text-link{
+    margin-top: 40px;
     color: #004138;
 }
 /*footer*/
