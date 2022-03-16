@@ -50,16 +50,12 @@ body{
     background-color: #DAB88B;
 }
 .about-text{
-    margin: 15%;
+    margin: 20% 15% 15% 15%;
 }
 .about-me{
     font-size: 1.5rem;
 }
-@media screen and (max-width: 980px){
-    .title-image{
-        width: 350px;
-    }
-  }
+
 /*contact*/
 #contact{
     background-color: #DAB88B;
@@ -88,3 +84,8 @@ body{
     margin: 0;
     background-color: #B7CADB;
 }
+@media screen and (max-width: 980px){
+    .title-image{
+        width: 350px;
+    }
+  }
