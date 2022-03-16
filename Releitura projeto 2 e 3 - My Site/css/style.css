@@ -24,4 +24,13 @@ body{
     line-height: 1.5;
     margin-top: 125px;
 }
-
+/*About*/
+#about{
+    background-color: #f3e9dd;
+}
+.about-image{
+    width: 400px;
+}
+.about-box-colored{
+    background-color: #DAB88B;
+}
