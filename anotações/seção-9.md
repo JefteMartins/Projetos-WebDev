@@ -79,3 +79,60 @@ function lifeInWeeks(age) {
 
 ###### 121. Functions Part 3: Outputs & Return Values
 funções com return
+
+###### 122. 123.  Challenge: Create a BMI Calculator
+criando uma calculadora de imc e resolvendo
+
+###### 124. Tip from Angela - Set Your Expectations
+moitivacional
+
+###### 125. Random Number Generation in Javascript: Building a Love Calculator
+uma forma de simular um dado
+```
+var n = Math.random(); // varia entre 0 e 0.999999999
+n = n* 6
+n = Math.floor(n) + 1;
+```
+###### 126. Control Statements: Using If-Else Conditionals & Logic
+if else
+###### 127. Comparators and Equality
+===
+!==
+'>'
+'<'
+etc
+e falando que com == string '1' == 1 true e com === da false
+###### 128. Combining Comparators
+&& || 
+###### 129. Introducting the Leap Year Code Challenge
+falando sobre o desafio do ano bissexto
+###### 130. Leap Year Solution
+resolução do problema passado
+###### 131. Collections: Working with Javascript Arrays
+função .include pra saber se algo está dentro do array
+```
+var guestlist = ["Angela", "Jack", "Pam", "James", "Lara", "Jason"1;
+var guestName = prompt("What is your name?");
+                                                        I
+if (guestlist.includes(guestName)) {
+    alert("Welcome!");
+ } else {
+    alert("Sorry, maybe next time.");
+```
+###### 132. Adding Elements and Intermediate Array Techniques
+uso de push
+###### 133. Who's Buying Lunch Solution
+function whosPaying(names) {
+   var numberofPeople = names.length;
+   var randomPersonPosition = Math.floor(Math.random() * number0fPeople);
+   var randomPerson = names [randomPersonPosition];
+   return randomPerson + " is going to buy lunch today!";
+}
+###### 134. Control Statements: While Loops
+while
+###### 135. Solution to the 99 Bottles Challenge
+solução
+###### 136. Control Statements: For Loops
+for simples
+for(var i; i<x ; i++){
+}
