@@ -21,3 +21,4 @@ sobre interfaces amigáveis, uso de espaço vazio pra dar enfase e sensação de
 ###### 99. User Experience (UX) Design
 falou sobre F pathing e Z pathing
 
+
