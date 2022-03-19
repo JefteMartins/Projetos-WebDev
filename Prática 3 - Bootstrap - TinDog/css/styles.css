@@ -1,5 +1,10 @@
 /*------------------ TAGS ------------------*/
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Monserrat", sans-serif;
   font-weight: 900;
 }
@@ -12,18 +17,36 @@ body {
   text-align: center;
 }
 /*------------------ CLASSES ------------------*/
-.big-heading{
+
+/*conteiner*/
+.conteiner-fluid {
+  padding: 7% 15%;
+}
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+.colored-section {
+  background-color: #ff4c68;
+  color: aliceblue;
+}
+.white-section {
+  background-color: aliceblue;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/*----------------- Sections ------------------*/
+
+/*------------------ Title ------------------*/
+.big-heading {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
   margin: 7% 15%;
 }
-/*conteiner*/
-.conteiner-fluid {
-  padding: 7% 15%;
-}
-/*Navbar*/
+
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -39,44 +62,30 @@ body {
   font-size: 1.2rem;
   font-family: "Montserrat-light", sans-serif;
 }
-/*Buttons*/
-.download-button {
-  margin: 5% 3% 5% 0%;
-}
-/*image*/
 
+#title {
+  background-color: #ff4c68;
+  color: aliceblue;
+  text-align: left;
+}
+
+#title .conteiner-fluid {
+  padding: 3% 15% 7%;
+}
 .title-image {
   width: 50%;
   transform: rotate(25deg);
   position: absolute;
   right: 30%;
-  
 }
+/*------------------ Features ------------------*/
 .testimonial-image {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
 }
-/*sections*/
-.colored-section{
-  background-color: #ff4c68;
-  color: aliceblue;
-}
-.white-section{
-  background-color: aliceblue;
-}
-
-/*etc*/
-.feature-title{
+.feature-title {
   font-size: 1.5rem;
-}
-.section-heading{
-  font-size: 3rem;
-  line-height: 1.5;
-}
-.testimonial-text{
-  font-size: 3Rrem;
-  line-height: 1.5;
 }
 .feature-box {
   padding: 5%;
@@ -88,56 +97,56 @@ body {
 .icon:hover {
   color: #ff4c68;
 }
-
-.press-logo {
-  width: 15%;
-  margin: 20px 20px 50px;
-}
-.pricing-column {
-  padding: 3% 2%;
-}
-.price-text{
-  font-size: 3rem;
-  line-height: 1.5;
-}
-.cta-heading{
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
-.social-icon{
-  padding: 20px 10px;
-}
-/*------------------ IDS ------------------*/
-
-#title {
-  background-color: #ff4c68;
-  color: aliceblue;
-  text-align: left;
-}
-#title .conteiner-fluid {
-  padding: 3% 15% 7%;
-}
 #features {
   background-color: aliceblue;
   position: relative;
 }
+/*------------------ Testimonial ------------------*/
+.testimonial-text {
+  font-size: 3rrem;
+  line-height: 1.5;
+}
 #testimonials {
   background-color: #ef8172;
+}
+/*------------------ Press ------------------*/
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
 #press {
   background-color: #ef8172;
   padding-bottom: 3%;
 }
+/*------------------ Pricing ------------------*/
+.pricing-column {
+  padding: 3% 2%;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 #pricing {
   padding: 100px;
 }
+/*------------------ CTA ------------------*/
 
+.cta-heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/*------------------ Footer ------------------*/
+.social-icon {
+  padding: 20px 10px;
+}
 
 /*------------------ MEDIA QUERIES ------------------*/
-@media screen and (max-width: 1024px){
-  .title-image{
+@media screen and (max-width: 1024px) {
+  .title-image {
     position: static;
     transform: rotate(0);
   }
