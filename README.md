@@ -24,9 +24,9 @@ As anotações são como um diário de bordo em que eu coloco algo que foi visto
 # Prática 4 - DOM - Dicee Game
 ### Um joguinho de randomização de dados mostrando quem venceu usando DOM
 <div>
-  <img src="https://user-images.githubusercontent.com/36806973/159375740-616e64b1-83f4-4bba-bb46-28b6eeb8d80f.png" alt="tindog example" width="450"/>
-  <img src="https://user-images.githubusercontent.com/36806973/159375664-46302494-694c-420d-bd76-6f2613dc3e29.png" alt="tindog example" width="450"/>
-  <img src="https://user-images.githubusercontent.com/36806973/159375607-04b48c0e-ebd4-4b2f-9605-aabefd560934.png" alt="tindog example" width="450"/>
+  <img src="https://user-images.githubusercontent.com/36806973/159375740-616e64b1-83f4-4bba-bb46-28b6eeb8d80f.png" alt="tindog example" width="350"/>
+  <img src="https://user-images.githubusercontent.com/36806973/159375664-46302494-694c-420d-bd76-6f2613dc3e29.png" alt="tindog example" width="350"/>
+  <img src="https://user-images.githubusercontent.com/36806973/159375607-04b48c0e-ebd4-4b2f-9605-aabefd560934.png" alt="tindog example" width="350"/>
 </div>
 
 
