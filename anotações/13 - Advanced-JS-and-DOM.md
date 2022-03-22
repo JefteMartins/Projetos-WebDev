@@ -147,3 +147,12 @@ function Housekeeper (yearsofExperience, name, cleaningRepertoire) {
     this.clean = function () {
         alert("Cleaning in progress...");
 ```
+###### 169. A quick note about the next lesson
+falando pra usar `keydown` ao inves de `keypressed` 
+
+###### 170. Using Keyboard Event Listeners to Check for Key Presses
+```
+document.addEventListener("keydown", function(event){
+    console.log(event.key);
+})
+```
