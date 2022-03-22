@@ -32,3 +32,108 @@ for(var i=0; i<document.querySelectorAll(".drum").length; i++){
     } );
 }
 ```
+
+###### 163. Higher Order Functions and Passing Functions as Arguments
+passando funções como parametros
+```
+function add(num1, num2) {
+    return num1 + num2;
+function multiply(num1, num2) {
+    return numl * num2;
+function calculator(num1, num2, operator) {
+    return operator(num1, num2):
+```
+pode-se usar a função 
+`debugger;`
+código abaixo
+
+no console para debugar o código
+
+###### 164. Higher Order Function Challenge Solution
+uma calculadorazinha
+```
+function add(num1, num2) {
+return num1 + num2;
+}
+function subtract(num1, num2) {
+return num1 - num2;
+}
+function multiply(num1, num2) {
+return num1 * num2;
+}
+function divide(num1, num2) {
+return num1 / num2;
+}
+function calculator(num1, num2, operator) {
+return operator(num1, num2);
+}
+```
+
+
+###### 165. How to Play Sounds on a Website
+usando o this para pegar as infos do botao que foi clicado e entrou na função
+```
+for(var i=0; i<document.querySelectorAll(".drum").length; i++){
+    document.querySelectorAll(".drum")[i].addEventListener("click",function (){
+        this.style.color = "white";
+    } );
+}
+
+```
+
+###### 166. A Deeper Understanding of Javascript Objects
+construtor
+```
+function Housekeeper (years0fExperience, name, cleaningRepertoire) {
+    this.yearsofExperience yearsofExperience;
+    this.name = name;
+    this.cleaningRepertoire = cleaningRepertoire;
+```
+inicializando
+`var housekeeper1 = new Housekeeper(9, "Ton", ["lobby", "bedroon"]); 
+`
+
+###### 167. How to Use Switch Statements in Javascript
+codigo construido com switch case
+```
+for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
+  document.querySelectorAll(".drum")[i].addEventListener("click", function () {
+    var buttonInnerHTML = this.innerHTML;
+    switch (buttonInnerHTML) {
+      case "w":
+        var tom1 = new Audio("sounds/tom-1.mp3");
+        audio.play();
+        break;
+      case "a":
+        var tom2 = new Audio("sounds/tom-2.mp3");
+        audio.play();
+        break;
+      case "s":
+        var tom3 = new Audio("sounds/tom-3.mp3");
+        audio.play();
+        break;
+      case "d":
+        var tom4 = new Audio("sounds/tom-4.mp3");
+        audio.play();
+        break;
+      case "j":
+        var snare = new Audio("sounds/snare.mp3");
+        audio.play();
+        break;
+      case "k":
+        var crash = new Audio("sounds/crash.mp3");
+        audio.play();
+        break;
+      case "l":
+        var kick = new Audio("sounds/kick-bass.mp3");
+        audio.play();
+        break;
+      default:
+        console.log(buttonInnerHTML);
+    }
+  });
+}
+
+// var tom1 = new Audio("sounds/tom-1.mp3");
+// tom1.play();
+```
