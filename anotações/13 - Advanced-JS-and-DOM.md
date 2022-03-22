@@ -137,3 +137,13 @@ for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
 // var tom1 = new Audio("sounds/tom-1.mp3");
 // tom1.play();
 ```
+
+###### 168. Objects, their Methods and the Dot Notation
+```
+function Housekeeper (yearsofExperience, name, cleaningRepertoire) {
+    this. years0fExperience = yearsofExperience;
+    this.name = name;
+    this.cleaningRepertoire = cleaningRepertoire;
+    this.clean = function () {
+        alert("Cleaning in progress...");
+```
