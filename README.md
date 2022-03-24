@@ -6,6 +6,8 @@ Assim creio poder melhorar minha base, treinar meu inglês e ainda aprender cois
 As anotações são como um diário de bordo em que eu coloco algo que foi visto na aula pra relembrar quando tiver que achar algo e rever a aula
 
 # Projetos
+## Os primeiros projetos serão os pessoais, sem seguir vídeos e com ideia original
+## Os a seguintes são práticas do curso.
 <hr>
 
 # Releitura Prática 2 e 3
@@ -20,6 +22,14 @@ As anotações são como um diário de bordo em que eu coloco algo que foi visto
   <img src="https://user-images.githubusercontent.com/36806973/158506755-3b8c7726-439a-4deb-9246-bdafb814b38e.png" alt="tindog example" width="400"/>
 </div>
   <hr>
+
+# Prática 5 - DOM and JS - DrumKit
+<div>
+  <img src="https://user-images.githubusercontent.com/36806973/159827530-070567d1-36a6-42ab-b667-f097a07f7d5c.png" alt="tindog example" width="400"/>
+  <img src="https://user-images.githubusercontent.com/36806973/159827650-78d4faf4-4af5-4f76-9d84-6d7489cae16a.png" alt="tindog example" width="400"/>
+  <img src="https://user-images.githubusercontent.com/36806973/159827726-4c3bffc8-604f-4c30-8bcd-5377dfa1f7f1.png" alt="tindog example" width="400"/>
+</div>
+
 
 
 # Prática 4 - DOM - Dicee Game
