@@ -156,3 +156,11 @@ document.addEventListener("keydown", function(event){
     console.log(event.key);
 })
 ```
+
+###### 171. Understanding Callbacks and How to Respond to Events
+o codigo acima seria uma callback function, pq ele espera uma coisa acontecer pra chamar uma função
+```
+$0. addEventListener("click", function(event) {
+   console. log(event);
+});
+```
