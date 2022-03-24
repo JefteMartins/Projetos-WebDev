@@ -24,6 +24,7 @@ As anotações são como um diário de bordo em que eu coloco algo que foi visto
   <hr>
 
 # Prática 5 - DOM and JS - DrumKit
+Uma pequena bateria
 <div>
   <img src="https://user-images.githubusercontent.com/36806973/159827530-070567d1-36a6-42ab-b667-f097a07f7d5c.png" alt="tindog example" width="400"/>
   <img src="https://user-images.githubusercontent.com/36806973/159827650-78d4faf4-4af5-4f76-9d84-6d7489cae16a.png" alt="tindog example" width="400"/>
