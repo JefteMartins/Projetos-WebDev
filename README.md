@@ -5,6 +5,9 @@ Assim creio poder melhorar minha base, treinar meu inglês e ainda aprender cois
 
 As anotações são como um diário de bordo em que eu coloco algo que foi visto na aula pra relembrar quando tiver que achar algo e rever a aula
 
+Para ver cada um dos projetos, baixa pastar a pasta individualmente, ou toda ela.
+Entre na pasta do projeto e execute o index.html
+
 # Projetos
 ## Os primeiros projetos serão os pessoais, sem seguir vídeos e com ideia original
 ## Os a seguintes são práticas do curso.
@@ -20,6 +23,17 @@ As anotações são como um diário de bordo em que eu coloco algo que foi visto
   <img src="https://user-images.githubusercontent.com/36806973/158506369-636e09dc-954b-4c41-b765-4d6f40a45113.png" alt="tindog example" width="400"/>
   <img src="https://user-images.githubusercontent.com/36806973/158506511-f5d151f9-d8d2-4c6b-8ca3-dc9d945eab7e.png" alt="tindog example" width="400"/>
   <img src="https://user-images.githubusercontent.com/36806973/158506755-3b8c7726-439a-4deb-9246-bdafb814b38e.png" alt="tindog example" width="400"/>
+</div>
+
+### Como a tela se comporta quando diminuímos sua largura. Um teste de responsividade
+
+</br>
+<div>
+<img src="https://user-images.githubusercontent.com/36806973/160038293-2cb0eff9-5840-40b7-b60e-8d0cd53f436c.png" alt="tindog example" height="350"/>
+<img src="https://user-images.githubusercontent.com/36806973/160038333-1f1440c9-3963-4d52-9a06-19ff042520e6.png" alt="tindog example" height="350"/>
+<img src="https://user-images.githubusercontent.com/36806973/160038374-1d83973c-20a1-454c-bdf1-f16c0fff42a7.png" alt="tindog example" height="350"/>
+<img src="https://user-images.githubusercontent.com/36806973/160038417-b4989acf-7800-4778-ac18-f266a997aa42.png" alt="tindog example" height="350"/>
+
 </div>
   <hr>
 
@@ -53,7 +67,6 @@ Uma pequena bateria
   <img src="https://user-images.githubusercontent.com/36806973/158295189-a0369ed4-1e54-49c7-9328-42b8e49d74de.png" alt="tindog example" width="400"/>
   <img src="https://user-images.githubusercontent.com/36806973/158295468-f0e798e7-9fe6-432f-9355-6436ae7dcd2f.png" alt="tindog example" width="400"/>
 </div>
-<hr>
 
 
 # Prática 2 - CSS - My Site
