@@ -36,6 +36,15 @@ Entre na pasta do projeto e execute o index.html
 
 </div>
   <hr>
+# Prática 6 - jQuery - Simon Game
+<div>
+  <img src="https://user-images.githubusercontent.com/36806973/160200504-6d3ae0e3-17f1-4054-9a68-674f1284afad.png" alt="tindog example" width="400"/>
+  <img src="https://user-images.githubusercontent.com/36806973/160200452-d561ab0a-56c7-4dfd-9db2-75c414238291.png" alt="tindog example" width="400"/>
+  <img src="https://user-images.githubusercontent.com/36806973/160200688-68842c19-4fd8-481b-a25a-7a8e0e3f2f42.png" alt="tindog example" width="400"/>
+  <img src="https://user-images.githubusercontent.com/36806973/160200399-06130415-9825-43cd-a1cd-6961e65f4801.png" alt="tindog example" width="400"/>
+</div>
+
+
 
 # Prática 5 - DOM and JS - DrumKit
 Uma pequena bateria
@@ -44,6 +53,7 @@ Uma pequena bateria
   <img src="https://user-images.githubusercontent.com/36806973/159827650-78d4faf4-4af5-4f76-9d84-6d7489cae16a.png" alt="tindog example" width="400"/>
   <img src="https://user-images.githubusercontent.com/36806973/159827726-4c3bffc8-604f-4c30-8bcd-5377dfa1f7f1.png" alt="tindog example" width="400"/>
 </div>
+
 
 
 
