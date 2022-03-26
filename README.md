@@ -36,36 +36,23 @@ Entre na pasta do projeto e execute o index.html
 <img src="https://user-images.githubusercontent.com/36806973/160038417-b4989acf-7800-4778-ac18-f266a997aa42.png" alt="tindog example" height="350"/>
 
 </div>
-  <hr>
+<hr>
+  
 # Prática 6 - jQuery - Simon Game
-<div>
-  <img src="https://user-images.githubusercontent.com/36806973/160200504-6d3ae0e3-17f1-4054-9a68-674f1284afad.png" alt="tindog example" width="400"/>
-  <img src="https://user-images.githubusercontent.com/36806973/160200452-d561ab0a-56c7-4dfd-9db2-75c414238291.png" alt="tindog example" width="400"/>
-  <img src="https://user-images.githubusercontent.com/36806973/160200688-68842c19-4fd8-481b-a25a-7a8e0e3f2f42.png" alt="tindog example" width="400"/>
-  <img src="https://user-images.githubusercontent.com/36806973/160200399-06130415-9825-43cd-a1cd-6961e65f4801.png" alt="tindog example" width="400"/>
-</div>
 
+<img src="https://user-images.githubusercontent.com/36806973/160243865-47bd8bb7-9afe-44f4-ae8a-860881236334.gif" alt="tindog example" width="450"/>
 
 
 # Prática 5 - DOM and JS - DrumKit
 Uma pequena bateria
-<div>
-  <img src="https://user-images.githubusercontent.com/36806973/159827530-070567d1-36a6-42ab-b667-f097a07f7d5c.png" alt="tindog example" width="400"/>
-  <img src="https://user-images.githubusercontent.com/36806973/159827650-78d4faf4-4af5-4f76-9d84-6d7489cae16a.png" alt="tindog example" width="400"/>
-  <img src="https://user-images.githubusercontent.com/36806973/159827726-4c3bffc8-604f-4c30-8bcd-5377dfa1f7f1.png" alt="tindog example" width="400"/>
-</div>
 
-
+<img src="https://user-images.githubusercontent.com/36806973/160243916-52335135-b829-4a69-bec2-ace22f2b7110.gif" alt="tindog example" width="450"/>
 
 
 # Prática 4 - DOM - Dicee Game
 ### Um joguinho de randomização de dados mostrando quem venceu usando DOM
-<div>
-  <img src="https://user-images.githubusercontent.com/36806973/159375740-616e64b1-83f4-4bba-bb46-28b6eeb8d80f.png" alt="tindog example" width="350"/>
-  <img src="https://user-images.githubusercontent.com/36806973/159375664-46302494-694c-420d-bd76-6f2613dc3e29.png" alt="tindog example" width="350"/>
-  <img src="https://user-images.githubusercontent.com/36806973/159375607-04b48c0e-ebd4-4b2f-9605-aabefd560934.png" alt="tindog example" width="350"/>
-</div>
 
+<img src="https://user-images.githubusercontent.com/36806973/160243942-ec5f7ab6-0a2d-4bba-a86c-e05bdf92803c.gif" alt="tindog example" width="450"/>
 
 
 # Prática 3 - Bootstrap - TinDog
