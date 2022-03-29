@@ -79,3 +79,80 @@ passos para criar o express, rodar com nodemon e so retornar um hello wolrd
 ## 233. Calculator Setup: Challenge Solution
 
 completando os passos anteriores
+
+## 234. Responding to Requests with HTML Files
+
+criando um arquivo html, boilerplate e 2 inputs de text. O `name="nome"` é a variável que vai ficar alocada o conteúdo do input
+
+para enviar uma pagina HTML é diferente
+
+```javascript
+app.get("/", function(request, response){
+    	res.sendFile("diretório");
+	}
+);
+```
+
+Para previnir erros de diretório,  existe a variável `__dirname` que retorna o local atual do arquivo. Uma boa forma de retornar no sendFile seria 
+`res.sendFile(__dirname + "/indexhtml")`
+
+### Final
+
+```javascript
+//jshint esversion:6
+const express = require("express");
+const app = express();
+app.get("/", function(req, res) {
+    res.sendFile(__dirname + "/index.html");
+});
+
+app.listen(3000, function() {
+    console.log("Server started on port 3000");
+});
+```
+
+## 235. Processing Post Requests with Body Parser
+
+passando informações do html para o servidor
+quando da submit da um erro 404, pq no form o action ta tapontando pro proprio arquivo html, e nao o calculator.js
+
+precisa de um post, então mudou o form action pra "/"
+
+e fez um app.post com uma callback function retornando uma mensagem simples
+
+para tratar essas informações vamos precisar do package `body-parser`
+
+instalando `npm install body-parser`
+
+para usar os dados vindos do html usaremos
+```javascript
+app.use(bodyParser.urlencoded({extended: true}));
+```
+
+Codigo final Js
+
+```javascript
+//jshint esversion:6
+const express = require("express");
+const bodyParser = require("body-parser");
+
+const app = express();
+app.use(bodyParser.urlencoded({ extended: true }));
+
+app.get("/", function (req, res) {
+  res.sendFile(__dirname + "/index.html");
+});
+
+app.post("/", function (req, res) {
+    let num1 = Number(req.body.num1);
+    let num2 = Number(req.body.num2);
+    let result = num1 + num2;
+    res.send("The result is " + result);
+});
+
+app.listen(3000, function () {
+  console.log("Server started on port 3000");
+});
+
+```
+
