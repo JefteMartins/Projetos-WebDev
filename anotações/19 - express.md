@@ -55,3 +55,27 @@ app.listen(3000, function(){
 ); //em qual porta vai "ouvir"
 ```
 
+## 230. Understanding and Working with Routes
+
+```javascript
+app.get("/", function(request, response){
+}
+```
+
+"/" =  rota, quando chegar nela vai ter a callback function, que é a seguinte 
+
+>  uso de **Nodemon**
+
+quando ta usando nodemon e salva o arquivo, ele reinicia automaticamente, como o live server
+
+## 231. What We'll Make: A Calculator
+
+falando que vamos começar a fazer coisas no server side com node e sobre o desafio do próx capitulo
+
+## 232. Calculator Setup Challenge
+
+passos para criar o express, rodar com nodemon e so retornar um hello wolrd
+
+## 233. Calculator Setup: Challenge Solution
+
+completando os passos anteriores
