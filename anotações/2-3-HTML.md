@@ -1,12 +1,12 @@
 # HTML
 ### Seção 2
-###### 12. Introduction to HTML
+## 12. Introduction to HTML
 Introdução sobre o que é
-###### 13. Anatomy of an HTML Tag
+## 13. Anatomy of an HTML Tag
 basicamente sobre <tag> conteúdio </tag>
-###### 14. What we're buildint
+## 14. What we're buildint
 mostrando o site html que vamo se basear, um so com html
-###### 15. HTML boilerplate
+## 15. HTML boilerplate
 
 <html> </html> <- tag html em que o codigo vai dentro
 <head> </head> <- informações que vc manda para o site como meta dados e o titlo
