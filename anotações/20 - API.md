@@ -103,3 +103,39 @@ o res.send() é o que a gente envia pra nossa pagina
 
 e só pode ter um .send();
 mas res.write(); pode ter mais
+
+## 246. Using Body Parser to Parse POST Requests to the Server
+
+faz um form com action para a root recebendo informação no input text
+
+no node faz um app.post() com callback function como sempre
+
+precisará do body parser
+
+`npm i body-parser`
+e no código .js
+`const bodyParser = require("body-parser");`
+`app.use(bodyParser.urlencoded({ extended: true }));`
+
+```html
+<!--HTML-->
+<form action="/" method="post">
+      <label for="cityInput">City Name: </label>
+      <input id="cityInput" type="text" name="cityName" />
+      <button type="submit">Go</button>
+    </form>
+```
+
+
+
+```javascript
+//js
+app.post("/", (req, res) => {
+  console.log(req.body.cityName); // cityName é o id do inputTextt que a gente quer pegar a informação
+  console.log("post received");
+});
+```
+
+## 247. The Mailchimp API - What You'll Make
+
+Falando sobre a prática de api, que vai ser  coletar emails e nomes pra uma newsletter usando MailChimp e fazendo deploy com Heroku.
