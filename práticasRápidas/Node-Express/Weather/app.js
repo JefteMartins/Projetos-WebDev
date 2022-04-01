@@ -16,7 +16,7 @@ app.post("/", (req, res) => {
   const apiKeyEnv = process.env.API_KEY;
   console.log(apiKeyEnv);
   const city = req.body.cityName;
-  const apiKey = apiKeyEnv;
+  const apiKey = apiKeyEnv; // INSERIR A API AQUI
   const units = "metric";
   const urlApi =
     "https://api.openweathermap.org/data/2.5/weather?q=" +
