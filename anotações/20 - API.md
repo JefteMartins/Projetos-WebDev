@@ -139,3 +139,20 @@ app.post("/", (req, res) => {
 ## 247. The Mailchimp API - What You'll Make
 
 Falando sobre a prática de api, que vai ser  coletar emails e nomes pra uma newsletter usando MailChimp e fazendo deploy com Heroku.
+
+## 248. Setting Up the Sign Up Page
+
+mostrando como pegar codigo pronto do bootstrap
+
+vca vai em examples, pega o que quer, clica na pagina e vai em codigo fonte
+la vc pode copiar e colar no seu projeto.
+
+Instala o bootstrap no projeto com o cdn do bootstrap
+
+Depois disso tem que no código fonte pegar o link do css externo, ir lá, copiar e colar no seu css externo. 
+
+quando rodou no nodemon o css externo nao funcionou nem a imagem, a mesma coisa quando so tinha colocado o bootstrap no codigo
+
+tem que adicionar `app.use(express.static("public"));` no código
+
+faz uma pasta chamada public e bota os assets e o css dentro
