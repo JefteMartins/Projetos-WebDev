@@ -26,6 +26,6 @@ Entre na pasta do projeto e execute o index.html
 |   | [My site](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Releitura%20projeto%202%20e%203%20-%20My%20Site)                         | Um site pessoal tendo como base os projetos 2 e 3            | HTML, CSS e Bootstrap              |
 |   | [Weather](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/práticasRápidas/Node-Express/Weather)                   | Treinando express puxando as informações de clima de uma cidade digitada         | HTML, JS, Node e Express             |
 |   | [Calculator-BMI](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/práticasRápidas/Node-Express/CalculatorBMI)                   | Treinando express calculando IMC ou soma simples        | HTML, JS, Node e Express             |
-|   | [Calculator-BMI](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/práticasRápidas/Node-Express/Newsletter-SignUp)                   | Um site para se inscrever em uma newsletter. As informações são armazenadas no MAilChimp.     | HTML, CSS, Bootstrap, Node e Express             |
+|   | [Newsletter](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/práticasRápidas/Node-Express/Newsletter-SignUp)                   | Um site para se inscrever em uma newsletter. As informações são armazenadas no MAilChimp.     | HTML, CSS, Bootstrap, Node e Express             |
 
 
