@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <title>Failure</title>
 </head>
 <body>
-    <h1>Failure :(</h1>
+    <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">Uh Oh!</h1>
+            <p class="col-md-8 fs-4">There was a problem signing you up. Please try again or contact the developer!</p>
+
+            <form action="/failure.html" method="post">
+                <button class="btn btn-lg btn-warning" type="submit" name="button">Try Agin</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
