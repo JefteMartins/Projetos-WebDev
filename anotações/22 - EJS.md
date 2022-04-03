@@ -74,3 +74,23 @@ usando a tag <% codigo %> em cada linha de JS que escrever
 ## 268. Passing Data from Your Webpage to Your Server
 
 Com form normal usando body parse
+
+## 269. The Concept of Scope in the Context of Javascript
+
+falando sobre escopo, sobre como variaveis podem ser usadas em uns lugares mas em outros nao
+
+diferença de var, let e const
+
+> var 
+>
+> > locais em funções, globais em estrutura de condições
+>
+> let
+>
+> > locais em funções e condições
+>
+> const
+>
+> > não alterável, locais em funções e condições 
+
+## 270. Adding Pre-Made CSS Stylesheets to Your Website
