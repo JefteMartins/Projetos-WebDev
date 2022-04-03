@@ -6,9 +6,20 @@ app.set("view engine", "ejs");
 
 
 app.get('/', (req, res) => {
-  var today = new Date();
-  var currentDay = today.getDay();
-  var day = "";
+  let today = new Date();
+  let currentDay = today.getDay();
+  let day = parseDay(currentDay);
+
+  res.render("list", {kindOfDay: day});
+
+});
+
+app.listen(3000, () => {
+  console.log('Example app listening on port 3000!');
+});
+
+function parseDay(currentDay) {
+  let day = "";
   switch (currentDay) {
     case 0:
       day = "Sunday";
@@ -32,11 +43,5 @@ app.get('/', (req, res) => {
       day = "Saturday";
       break;
   }
-
-  res.render("list", {kindOfDay: day});
-
-});
-
-app.listen(3000, () => {
-  console.log('Example app listening on port 3000!');
-});
+  return day;
+}
