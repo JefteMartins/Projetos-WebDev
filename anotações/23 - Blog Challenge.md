@@ -108,3 +108,21 @@ usar lodash
 `if (_.lowerCase(post.title) === _.lowerCase(req.params.postName))`
 
 ## 312 & 313. Challenge 19
+
+criar a pagina individual de cada post
+
+## 314 & 315. Challenge 20
+
+cortar os caracteres do home pra aparecer so 100 com ... no final
+usei a propriedade `max-width` no css
+
+```css
+max-width: 500px;
+white-space: nowrap; 
+overflow: hidden; 
+text-overflow: ellipsis; 
+```
+
+## 316 & 317. Challenge 21
+
+colocar um read more e levar pro post
