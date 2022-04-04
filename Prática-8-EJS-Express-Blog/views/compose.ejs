@@ -1,14 +1,22 @@
 <%- include("partials/header") -%>
 <h1>Compose</h1>
 <form action="/compose" method="post">
+  <div class="form-group">
+    <label for="postTitle">Title</label>
     <input
+      class="form-control"
       type="text"
       name="postTitle"
-      placeholder="Add a new compose"
       autocomplete="off"
       required
       autofocus
     />
-    <button type="submit" name="postButton">Publish</button>
+    <label for="postBody">Post</label>
+    <textarea class="form-control" name="postBody" cols="30" rows="5">
+    </textarea>
+  </div>
+  <button class="btn btn-primary" type="submit" name="postButton">
+    Publish
+  </button>
 </form>
 <%- include("partials/footer") -%>
