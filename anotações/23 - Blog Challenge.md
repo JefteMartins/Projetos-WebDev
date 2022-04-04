@@ -54,3 +54,7 @@ fazer um form melhor com text area e colocar as classes do bootstrap
 passando o title e o body num bojeto js
 
 ## 296 & 297. Challenge 11
+
+criar um array posts, colocar o objeto dentro do array quando der submit e mostrar os posts armazenados no console
+
+## 298 & 299. Challenge 12
