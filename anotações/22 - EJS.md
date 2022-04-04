@@ -99,3 +99,44 @@ tem que falar pro express onde pegar esse css, ja que roda o arquivo do servidor
 entao usa-se o `app.use(express.static("public"));` 
 
 ver os css selector reference
+
+## 271. Understanding Templating vs. Layouts
+
+templating com arquivos guardando pedaços de html
+
+da pra colocar a parte do header dentro de arquivo .ejs e chamar de `header.ejs`
+
+e chamar no codigo como `<%- include("header") -%>`
+
+entao pode ser
+
+```html
+<%- include("header") -%>
+    <body>
+        <!-- conteúdo do body -->
+    </body>
+```
+
+## 272. Understanding Node Module Exports: How to Pass Functions and Data between Files
+
+cria um arquivo js com as funções que desejar
+No começo do arquivo js tem que ter `module.exports.getDate = getDate;`
+
+no app.js tem que fazer a requisição como os packages npm, mas com o __dirname ja que é um package local
+
+`const date = require(__dirname + "/date.js");`
+
+com arrow function e shortcut sem o nome module ficaria:
+
+```javascript
+exports.getDate = () => {
+  let today = new Date();
+  let options = {
+    weekday: "long",
+    day: "numeric",
+    month: "long",
+  };
+  return (day = today.toLocaleDateString("pt-BR", options));
+};
+```
+

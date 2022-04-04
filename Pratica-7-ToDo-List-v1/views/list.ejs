@@ -1,30 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>To Do List</title>
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
-  <div class="box" id="heading">
-    <h1><%= listTitle%> !</h1>
+<%- include("header") -%>
+<div class="box" id="heading">
+  <h1><%= listTitle%> !</h1>
+</div>
+<div class="box">
+  <%for (i in newListItem){ %> <%if(newListItem[i] != ""){%>
+  <div class="item">
+    <input type="checkbox" />
+    <p><%= newListItem[i] %></p>
   </div>
-  <body>
-    <div class="box">
-      <%for (i in newListItem){ %> <%if(newListItem[i] != ""){%>
-      <div class="item">
-        <input type="checkbox" />
-        <p><%= newListItem[i] %></p>
-      </div>
-      <% } %> <% } %>
-      <form action="/" method="post">
-        <input type="text" name="todo" placeholder="Add a new todo" autocomplete="off"/>
-        <button type="submit" name="list" value="<%= listTitle%>">+</button>
-      </form>
-
-    </div>
-
-    
-  </body>
-</html>
+  <% } %> <% } %>
+  <form action="/" method="post">
+    <input
+      type="text"
+      name="todo"
+      placeholder="Add a new todo"
+      autocomplete="off"
+      required
+      autofocus
+    />
+    <button type="submit" name="list" value="<%= listTitle%>">+</button>
+  </form>
+</div>
+<%- include("footer") -%>
