@@ -1,3 +1,9 @@
+.homePostBody{
+    max-width: 500px; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;

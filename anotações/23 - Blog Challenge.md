@@ -58,3 +58,53 @@ passando o title e o body num bojeto js
 criar um array posts, colocar o objeto dentro do array quando der submit e mostrar os posts armazenados no console
 
 ## 298 & 299. Challenge 12
+
+passar o array de listas como console log na aba home
+
+## 300 & 301. Challenge 13
+
+mostrar o titulo de todos os posts criados no console
+
+## 302. Challenge 14 and Solution
+
+trocar o for por foreach, mas eu ja usava
+
+## 303 & 304. Challenge 15
+
+fazer o post aparecer com h1 e p
+
+## 305. Express Routing Parameters
+
+`app.get("/posts/:postName", (req, res)`
+
+o `:postName` pode ser chamado depois com
+`res.params.postName`
+
+## 306 & 307. Challenge 16
+
+```java
+app.get("/posts/:postName", (req, res) => {
+  console.log(req.params.postName);
+});
+
+```
+
+## 308 & 308. Challenge 17
+
+```javascript
+posts.forEach((post) => {
+    if (post.title.toLowerCase() === req.params.postName.toLowerCase()) {
+      console.log("Match Found!");
+    }
+  });
+```
+
+## 310 & 311. Challenge 18
+
+usar lodash
+
+`const _ = requires("lodash");`
+
+`if (_.lowerCase(post.title) === _.lowerCase(req.params.postName))`
+
+## 312 & 313. Challenge 19
