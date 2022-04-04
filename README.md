@@ -11,12 +11,12 @@ Entre na pasta do projeto e execute o index.html
 
 | N°  | Prática  do curso                                                                                | Descrição                                                 | O que foi usado                         |
 |---|------------------------------------------------------------------------------------------|-----------------------------------------------------------|------------------------------------|
-|  6 | [Simon Game](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Prática%206%20-%20jQuery%20-%20Simon%20Game)                         | Um jogo que utiliza memória usando imagem e som              | HTML, CSS, JS, DOM e jQuery                |
-| 5  | [Drum Kit](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Prática%205%20-%20JS%20and%20DOM%20-%20Drum%20kit)                   | Uma bateria tocável com o teclado           | HTML, CSS, JS e DOM |
-|  4 | [Dicee Game](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Prática%204%20-%20DOM%20-%20Dicee%20Challenge)                     | Jogo simples de dado em que quem tira o maior valor vence                                     | HTML, CSS, JS e DOM    |
-|  3 | [Tindog](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Prática%203%20-%20Bootstrap%20-%20TinDog)                     | Uma pagina simples de promoção de um aplicativo de encontro para cachorros                                     | HTML, CSS e Bootstrap   |
-|  2 | [My Site](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Prática%202%20-%20CSS%20-%20My%20Site)                     | Uma pagina simples de apresentção pessoal                    | HTML e CSS  |
-|  1 | [My Site](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Prática%201%20-%20HTML%20Personal%20Site)                     | Uma pagina simples de apresentção pessoal                    | HTML |
+|  6 | [Simon Game](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Prática-6-jQuery-Simon-Game)                         | Um jogo que utiliza memória usando imagem e som              | HTML, CSS, JS, DOM e jQuery                |
+| 5  | [Drum Kit](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Prática-5-JS-and-DOM-%20Drum-kit)                   | Uma bateria tocável com o teclado           | HTML, CSS, JS e DOM |
+|  4 | [Dicee Game](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Prática-4-DOM-Dicee-Challenge)                     | Jogo simples de dado em que quem tira o maior valor vence                                     | HTML, CSS, JS e DOM    |
+|  3 | [Tindog](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Prática-3-Bootstrap-TinDog)                     | Uma pagina simples de promoção de um aplicativo de encontro para cachorros                                     | HTML, CSS e Bootstrap   |
+|  2 | [My Site](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Prática-2-CSS-My-Site)                     | Uma pagina simples de apresentção pessoal                    | HTML e CSS  |
+|  1 | [My Site](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Prática-1-HTML-Personal-Site)                     | Uma pagina simples de apresentção pessoal                    | HTML |
 
 
 <hr>
