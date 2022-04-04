@@ -5,17 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To Do List</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
+  <div class="box" id="heading">
+    <h1><%= listTitle%> !</h1>
+  </div>
   <body>
-    <h1><%= kindOfDay%> !</h1>
-    <ur>
-      <%for (i in newListItem){ %>
-      <li><%= newListItem[i] %></li>
-      <% } %>
-    </ur>
-    <form action="/" method="post">
-      <input type="text" name="todo" placeholder="Add a new todo" />
-      <input type="submit" value="Add" />
-    </form>
+    <div class="box">
+      <%for (i in newListItem){ %> <%if(newListItem[i] != ""){%>
+      <div class="item">
+        <input type="checkbox" />
+        <p><%= newListItem[i] %></p>
+      </div>
+      <% } %> <% } %>
+      <form action="/" method="post">
+        <input type="text" name="todo" placeholder="Add a new todo" autocomplete="off"/>
+        <button type="submit" name="list" value="<%= listTitle%>">+</button>
+      </form>
+
+    </div>
+
+    
   </body>
 </html>

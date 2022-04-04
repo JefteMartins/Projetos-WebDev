@@ -94,3 +94,8 @@ diferença de var, let e const
 > > não alterável, locais em funções e condições 
 
 ## 270. Adding Pre-Made CSS Stylesheets to Your Website
+
+tem que falar pro express onde pegar esse css, ja que roda o arquivo do servidor `app.js` e ele so encontra as views e o html
+entao usa-se o `app.use(express.static("public"));` 
+
+ver os css selector reference
