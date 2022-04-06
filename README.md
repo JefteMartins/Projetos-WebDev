@@ -12,6 +12,8 @@ Entre na pasta do projeto e execute o index.html
 
 | N°  | Prática  do curso                                                                                | Descrição                                                 | O que foi usado                         |
 |---|------------------------------------------------------------------------------------------|-----------------------------------------------------------|------------------------------------|
+|  8 | [Blog Website](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Pr%C3%A1tica-8-EJS-Express-Blog)                         | Um pequeno blog com sistema para posts      | JS, EJS e Express                |
+|  7 | [ToDo version 1.0](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Pr%C3%A1tica-7-ToDo-List-v1)                         | um Sistema de lista To Do              | JS, EJS e Express                |
 |  6 | [Simon Game](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Prática-6-jQuery-Simon-Game)                         | Um jogo que utiliza memória usando imagem e som              | HTML, CSS, JS, DOM e jQuery                |
 | 5  | [Drum Kit](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Prática-5-JS-and-DOM-%20Drum-kit)                   | Uma bateria tocável com o teclado           | HTML, CSS, JS e DOM |
 |  4 | [Dicee Game](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Prática-4-DOM-Dicee-Challenge)                     | Jogo simples de dado em que quem tira o maior valor vence                                     | HTML, CSS, JS e DOM    |
@@ -27,6 +29,6 @@ Entre na pasta do projeto e execute o index.html
 |   | [My site](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Releitura%20projeto%202%20e%203%20-%20My%20Site)                         | Um site pessoal tendo como base os projetos 2 e 3            | HTML, CSS e Bootstrap              |
 |   | [Weather](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/práticasRápidas/Node-Express/Weather)                   | Treinando express puxando as informações de clima de uma cidade digitada         | HTML, JS, Node e Express             |
 |   | [Calculator-BMI](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/práticasRápidas/Node-Express/CalculatorBMI)                   | Treinando express calculando IMC ou soma simples        | HTML, JS, Node e Express             |
-|   | [Newsletter](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/práticasRápidas/Node-Express/Newsletter-SignUp)                   | Um site para se inscrever em uma newsletter. As informações são armazenadas no MAilChimp.     | HTML, CSS, Bootstrap, Node e Express             |
+|   | [Newsletter](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/práticasRápidas/Node-Express/Newsletter-SignUp)                   | Um site para se inscrever em uma newsletter. As informações são armazenadas no MailChimp.     | HTML, CSS, Bootstrap, Node e Express             |
 
 
