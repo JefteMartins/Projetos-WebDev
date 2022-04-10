@@ -18,6 +18,13 @@ async function main() {
     name: String,
   };
   const Item = mongoose.model("Item", itemSchema);
+
+  const listSchema = {
+    name: String,
+    items: [itemSchema],
+  };
+  const List = mongoose.model("List", listSchema);
+
   const item1 = new Item({
     name: "Welcome to your todo list",
   });
@@ -53,26 +60,75 @@ async function main() {
 
   app.post("/", (req, res) => {
     const itemName = req.body.todo;
+    const listName = req.body.list;
+
     const item = new Item({
       name: itemName,
     });
-    item.save();
-    res.redirect("/");
+
+    if (listName === "Today") {
+      item.save(() => res.redirect("/"));
+    } else {
+      List.findOne({ name: listName }, (err, foundList) => {
+        foundList.items.push(item);
+        foundList.save();
+        res.redirect("/" + listName);
+      });
+    }
   });
 
   app.post("/delete", (req, res) => {
     const checkedItemID = req.body.checkbox;
-    Item.findByIdAndRemove(checkedItemID, (err) => {
-      if (!err) {
-        console.log("Successfully deleted checked item");
-        res.redirect("/");
-      }
-    });
+    const listName = req.body.listName;
+
+    if (listName === "Today") {
+      Item.findByIdAndRemove(checkedItemID, (err) => {
+        if (!err) {
+          console.log("Successfully deleted checked item");
+          res.redirect("/");
+        }
+      });
+    } else {
+      List.findOneAndUpdate(
+        {
+          name: listName, //de onde eu quero fazer o updade
+        },
+        {
+          $pull: {
+            items: {//de qual lista eu quero fazer o updade    
+              _id: checkedItemID, //qual item eu quero fazer o updade
+            },
+          },
+        },
+        (err, foundList) => {
+          if (!err) {
+            res.redirect("/" + listName);
+          }
+        }
+      );
+    }
   });
 
   app.get("/:customListName", (req, res) => {
     const customListName = _.capitalize(req.params.customListName);
-    console.log(customListName);
+    List.findOne({ name: customListName }, (err, foundList) => {
+      if (!err) {
+        if (!foundList) {
+          //create a new list
+          const list = new List({
+            name: customListName,
+            items: defaultItems,
+          });
+          list.save(() => res.redirect("/" + customListName));
+        } else {
+          //show an existing list
+          res.render("list", {
+            listTitle: foundList.name,
+            newListItem: foundList.items,
+          });
+        }
+      }
+    });
   });
 
   app.get("/about", (req, res) => {
