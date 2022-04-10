@@ -34,3 +34,68 @@ async function main() {
 ```
 
 ## 343. Rendering Database Items in the ToDoList App
+
+```js
+app.get("/", (req, res) => {
+    Item.find({}, (err, foundItems) => {
+      if (foundItems.length === 0) {
+        Item.insertMany(defaultItems, (err) => {
+          if (err) {
+            console.log(err);
+          } else {
+            console.log("Successfully saved default items to DB");
+          }
+        });
+        res.redirect("/");
+      }
+      res.render("list", { listTitle: "Today", newListItem: foundItems });
+    });
+  });
+```
+
+
+
+## 344. Adding New Items to our ToDoList Database
+
+```js
+ app.post("/", (req, res) => {
+    const itemName = req.body.todo;
+    const item = new Item({
+      name: itemName,
+    });
+   item.save();
+   res.redirect("/");
+  });
+```
+
+## 345. Deleting Items from our ToDoList Database
+
+```ejs
+<% newListItem.map((item) =>{ %>
+
+  <form action="/delete" method="post">
+    <div class="item">
+      <input type="checkbox" name="checkbox" value="<%=item._id%>" onChange="this.form.submit()"/>
+      <p><%=item.name%></p>
+    </div>
+  </form>
+
+  <% }) %>
+```
+
+
+
+```js
+app.post("/delete", (req, res) => {
+    const checkedItemID = req.body.checkbox;
+    Item.findByIdAndRemove(checkedItemID, (err) => {
+      if (!err) {
+        console.log("Successfully deleted checked item");
+        res.redirect("/");
+      }
+    }
+    );
+  });
+```
+
+## 346. Creating Custom Lists using Express Route Parameters
