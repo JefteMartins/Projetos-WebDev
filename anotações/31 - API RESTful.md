@@ -153,3 +153,154 @@ async function main() {
 }
 ```
 
+## 367. POST a New Article
+
+```js
+app.post("/articles", function (req, res) {
+        console.log(req.body.title);
+        console.log(req.body.content);
+
+        //new article
+        const newArticle = new Article({
+            title: req.body.title,
+            content: req.body.content
+        });
+
+        newArticle.save((err) => {
+            if (!err) {
+                res.send("Successfully added a new article");
+            } else {
+                res.send(err);
+            }
+        });
+    });
+```
+
+## 368. DELTE All Articles
+
+```js
+app.delete("/articles", function (req, res) {
+    Article.deleteMany({}, (err) => {
+      if (!err) {
+        res.send("Successfully deleted all articles");
+      } else {
+        res.send(err);
+      }
+    });
+  });
+```
+
+## 369. Chained Route Handlers Using Express
+
+serve pra nao ficar toda hora app.get|post|delete|etc...("/rota")
+
+```js
+app.route("/articles")
+.get((req, res) => {
+  Article.find((err, foundArticles) => {
+    if (!err) {
+      res.send(foundArticles);
+    } else {
+      res.send(err);
+    }
+  });
+})
+
+.post((req, res) => {
+  console.log(req.body.title);
+  console.log(req.body.content);
+  //new article
+  const newArticle = new Article({
+      title: req.body.title,
+      content: req.body.content
+  });
+  newArticle.save((err) => {
+      if (!err) {
+          res.send("Successfully added a new article");
+      } else {
+          res.send(err);
+      }
+  });
+})
+
+.delete((req, res) => {
+  Article.deleteMany({}, (err) => {
+    if (!err) {
+      res.send("Successfully deleted all articles");
+    } else {
+      res.send(err);
+    }
+  });
+});
+```
+
+## 370. GET a Specific Article
+
+```js
+app.route("/articles/:articleTitle")
+.get((req, res) => {
+  Article.findOne({title: req.params.articleTitle}, (err, foundArticle) => {
+    if (!err) {
+      res.send(foundArticle);
+    } else {
+      res.send(err);
+    }
+  });
+})
+
+```
+
+## 371. PUT a Specific Article
+
+```js
+.put((req, res) => {
+  Article.updateOne( 
+    {title: req.params.articleTitle},
+    {title: req.body.title, content: req.body.content},
+    (err) => {
+      if (!err) {
+        console.log("Successfully updated article");
+        res.send("Successfully updated article");
+      } else {
+        res.send(err);
+      }
+    }
+  )
+})
+```
+
+## 372. PATCH a Specific Article
+
+```js
+.patch((req, res) => {
+  Article.updateOne(
+    {title: req.params.articleTitle},
+    {$set: req.body},
+    (err) => {
+      if (!err) {
+        res.send("Successfully updated article");
+      } else {
+        res.send(err);
+      }
+    }
+  )
+})
+```
+
+## 373. DELETE a Specific Article
+
+```js
+.delete((req, res) => {
+  Article.deleteOne(
+    {title: req.params.articleTitle},
+    (err) => {
+      if (!err) {
+        res.send("Successfully deleted article");
+      } else {
+        res.send(err);
+      }
+    }
+  )
+});
+```
+
