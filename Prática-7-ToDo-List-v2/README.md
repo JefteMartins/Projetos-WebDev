@@ -20,3 +20,8 @@
 Para criar outras listas, basta criar um nome adicionando depois do `/` final da url
 
 ex: `localhost:3000/teste` para criar a tabela Teste com outras tarefas
+
+<div>
+<img src="https://user-images.githubusercontent.com/36806973/162794134-74e54b52-8c69-4361-8c66-aa4a492b51a9.png" width="400"/>
+<img src="https://user-images.githubusercontent.com/36806973/162794321-0e491e44-b86d-4f48-9c9c-d6e152c34d70.png" width="400"/>
+</div>
