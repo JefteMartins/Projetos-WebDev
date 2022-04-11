@@ -12,8 +12,8 @@ Entre na pasta do projeto e execute o index.html
 
 | N°  | Prática  do curso                                                                                | Descrição                                                 | O que foi usado                         |
 |---|------------------------------------------------------------------------------------------|-----------------------------------------------------------|------------------------------------|
-|  8 | [Blog Website](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Pr%C3%A1tica-8-EJS-Express-Blog)                         | Um pequeno blog com sistema para posts      | JS, EJS e Express                |
-|  7 | [ToDo version 1.0](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Pr%C3%A1tica-7-ToDo-List-v1)                         | um Sistema de lista To Do              | JS, EJS e Express                |
+|  8 | [Blog Website](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Pr%C3%A1tica-8-EJS-Express-Blog)                         | Um pequeno blog com sistema para posts      | JS, EJS, Express, MongoDB e Mongoose                |
+|  7 | [ToDo version 2.0](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Prática-7-ToDo-List-v2)                         | um Sistema de lista To Do              | JS, EJS, Express, MongoDB e Mongoose                 |
 |  6 | [Simon Game](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Prática-6-jQuery-Simon-Game)                         | Um jogo que utiliza memória usando imagem e som              | HTML, CSS, JS, DOM e jQuery                |
 | 5  | [Drum Kit](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Prática-5-JS-and-DOM-%20Drum-kit)                   | Uma bateria tocável com o teclado           | HTML, CSS, JS e DOM |
 |  4 | [Dicee Game](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Prática-4-DOM-Dicee-Challenge)                     | Jogo simples de dado em que quem tira o maior valor vence                                     | HTML, CSS, JS e DOM    |
