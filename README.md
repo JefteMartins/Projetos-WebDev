@@ -31,5 +31,5 @@ Entre na pasta do projeto e execute o index.html
 |   | [Weather](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/práticasRápidas/Node-Express/Weather)                   | Treinando express puxando as informações de clima de uma cidade digitada         | HTML, JS, Node e Express             |
 |   | [Calculator-BMI](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/práticasRápidas/Node-Express/CalculatorBMI)                   | Treinando express calculando IMC ou soma simples        | HTML, JS, Node e Express             |
 |   | [Newsletter](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/práticasRápidas/Node-Express/Newsletter-SignUp)                   | Um site para se inscrever em uma newsletter. As informações são armazenadas no MailChimp.     | HTML, CSS, Bootstrap, Node e Express             |
-
+|   | [Fruits Database](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/práticasRápidas/práticaMongoDB)                   | Prática de manipulação de dados com Mongoose e Express     | Js, Mongo, Mongoose, Node e Express          |
 
