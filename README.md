@@ -1,5 +1,5 @@
 # Curso The Complete 2022 Web Development Bootcamp by AngelaYu
-### andamento: ~75% || 31/39 seções de conteúdo || 393/503 Capítulos
+### andamento: ~80% || 31/39 seções de conteúdo || 403/503 Capítulos
 ## O curso atualizou em abril e foi adicionado 6 seções de web3
 Curso da Angela Yu
 Já comecei alguns cursos de web dev mas nada nunca a fundo, decidi fazer esse da Angela Yu para aprender mais coisas e tudo desde o começo em ordem, visto que sempre vi tudo separado.
@@ -12,7 +12,8 @@ Entre na pasta do projeto e execute o index.html
 
 | N°  | Prática  do curso                                                                                | Descrição                                                 | O que foi usado                         |
 |---|------------------------------------------------------------------------------------------|-----------------------------------------------------------|------------------------------------|
-|  8 | [API RESTful Wiki](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Prática-9-API-RESTful-Wiki)                         | Uma API RESTful que puxa dados de uma Wiki composta por infirmações que vc coloca | Express, MongoDB e Mongoose                |
+|  10 | [Security Secrets](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Prática-10-Secutiry-Secrets)                         |AINDA EM ANDAMENTO   | ainda em andamento                |
+|  9 | [API RESTful Wiki](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Prática-9-API-RESTful-Wiki)                         | Uma API RESTful que puxa dados de uma Wiki composta por infirmações que vc coloca | Express, MongoDB e Mongoose                |
 |  8 | [Blog Website](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Pr%C3%A1tica-8-EJS-Express-Blog)                         | Um pequeno blog com sistema para posts      | JS, EJS, Express, MongoDB e Mongoose                |
 |  7 | [ToDo version 2.0](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Prática-7-ToDo-List-v2)                         | um Sistema de lista To Do              | JS, EJS, Express, MongoDB e Mongoose                 |
 |  6 | [Simon Game](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Prática-6-jQuery-Simon-Game)                         | Um jogo que utiliza memória usando imagem e som              | HTML, CSS, JS, DOM e jQuery                |
