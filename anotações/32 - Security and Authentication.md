@@ -95,3 +95,46 @@ O plugin encrypt DEVE ficar acima do model
 falando sobre o pq de existir enviromenment variables e sorbe o .env além do gitignore
 
 ## 382. Level 3 - Hashing Passwords
+
+
+
+faz o hash do password no BD e ele so guarda o hash. Pra comparar quando faz o login vc faz o hash do password no login e compara com o do bd
+
+tira tudo do mongo encryption
+` const password = md5(*req*.body.password);`
+
+## 383. Hacking 101 ☣️
+
+falando sobre o hash da mesma palavra sempre ser o mesmo, entao da pra saber quando pessoas tem a mesma senha
+
+da pra saber qual a senha passando o hash das senhas mais comuns e comparando 
+
+da pra colocar o hash no google pra ver se bate com algum ja mais "famoso"
+
+## 384. Level 4 - Salting and Hashing Passwords with bcrypt
+
+salt seria um adicional de caracteres pra fazer o hash ainda mais seguro
+
+o salt fica guardado com o hash
+
+Salt rounds - o numero de vezes que sua senha vai ser "salgada" botando salt no hash pra fazer outro hash
+
+```js
+bcrypt.hash(req.body.password, saltRounds, function(err, hash) {
+      const newUser = new User({
+        email: req.body.username,
+        password: hash,
+      });
+```
+
+```js
+if (foundUser) {
+          bcrypt.compare(password, foundUser.password, (err, result) => {
+            res.render("secrets");
+          });
+        }
+```
+
+## 385. What are Cookies and Sessions?
+
+manter informações de sites pra manter login com session token, id
