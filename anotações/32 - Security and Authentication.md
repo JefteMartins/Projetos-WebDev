@@ -227,3 +227,50 @@ logout
   });
 ```
 
+## 387. Level 6 - OAuth 2.0 & How to Implement Sign In with Google
+
+third part OAuth
+
+aut0orização por parte de terceiros
+
+granularidade - pedir o que precisa, como o perfil e email de uma conta, lista de amigos ou o que precisar
+
+read-write acess -  autenticar o app a ver suas informções
+
+revoke acess - retirar acesso
+
+step 1 - setup your app | pegar um app/client id pra fazer o login
+step2 - redirect to authenticate | redirect to facebook and login
+step 3 - review the permissions 
+
+auth code vai dizer que tem o usuario
+pass code vai te fazer pedir infos sorbe eles
+
+ver o resto depois, precisa atualizar a aula e por enquanto nao é tao interessante eu perder esse tempo. 
+
+## 388. Finishing Up the App - Letting Users Submit Secrets
+
+fazer um get e post do submit
+
+```js
+  app.route("/login")
+  .get((req, res) => {
+    res.render("login");
+  })
+  .post((req, res) => {
+    const user = new User({
+      username: req.body.username,
+      password: req.body.password
+    });
+    req.login(user, (err) => {
+      if (err) {
+        console.log(err);
+      } else {
+        passport.authenticate("local")(req, res, () => {
+          res.redirect("/secrets");
+        });
+      }
+    });
+  });
+```
+
