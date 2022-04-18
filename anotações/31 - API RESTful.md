@@ -93,20 +93,10 @@ main().catch((err) => console.log(err));
 
 async function main() {
     mongoose.connect("mongodb://localhost:27017/todoDB");
-
-
-
-
-
     app.listen(3000, function() {
         console.log("Server started on port 3000");
       });
 }
-
-
-
-
-
 ```
 
 ## 366. GET All Articles
