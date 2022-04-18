@@ -138,3 +138,92 @@ if (foundUser) {
 ## 385. What are Cookies and Sessions?
 
 manter informações de sites pra manter login com session token, id
+
+## 386. Using Passport.js to Add Cookies and Sessions
+
+instalar uns packages
+
+1. passport
+2. passport-local
+3. passport-local-mongoose
+4. express-session
+
+para usar os passports tirei os post do login e do register
+
+adiciona session e initialize
+
+```js
+app.use(session({
+    secret: "This is a secret",
+    resave: false,
+    saveUninitialized: false
+  }));
+  app.use(passport.initialize());
+  app.use(passport.session());
+```
+
+adiciona um plugin no schema que tiver usando
+
+```js
+userSchema.plugin(passportLocalMongoose);
+```
+
+serialise and deserialise
+
+usar o register com passport
+
+```js
+app.route("/register")
+  .get((req, res) => {
+    res.render("register");
+  })
+  .post((req, res) => {
+    User.register({username: req.body.username}, req.body.password, (err, user) => {
+      if(err){
+        console.log(err);
+        res.redirect("/register");
+      } else {
+        passport.authenticate("local")(req, res, () => {
+          res.redirect("/secrets");
+        });
+      }
+    });
+  });
+
+```
+
+e o login
+
+```js
+ app.route("/login")
+  .get((req, res) => {
+    res.render("login");
+  })
+  .post((req, res) => {
+    const user = new User({
+      username: req.body.username,
+      password: req.body.password
+    });
+    req.login(user, (err) => {
+      if (err) {
+        console.log(err);
+      } else {
+        passport.authenticate("local")(req, res, () => {
+          res.redirect("/secrets");
+        });
+      }
+    });
+  });
+```
+
+logout
+
+```js
+  //logout route
+  app.route("/logout")
+  .get((req, res) => {
+    req.logout();
+    res.redirect("/");
+  });
+```
+
