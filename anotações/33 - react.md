@@ -107,6 +107,8 @@ ReactDOM.render(
 );
 ```
 
+para usar statement tem que escrever antes do render e jogar o resultado já dentro do `.render()`
+
 ## 397. Javascript Expressions in JSX Practice
 
 ```react
@@ -148,3 +150,142 @@ para criar inline css tem que passar como um objeto
  <h1 style={{ color: "red"}}>Hello World!</h1>.
 ```
 
+outro exemplo de como passar e atualizar o objeto seria
+
+```react
+const customStyle = {
+	color: "red",
+	fontSize: "20px",
+	border: "1px solid black"
+}
+customStyle.color = "blue":
+
+ReactDOM. render(
+	<h1 style={customStyle}>Hello World!</h1>,
+	document.getElementById("root")
+);
+```
+
+## 400. React Styling Practice
+
+prática de estilização dando bom dia, boa tarde ou boa noite dependendo da hora
+
+```react
+import React from "react";
+import ReactDOM from "react-dom";
+
+const date = new Date();
+const currentTime = date.getHours();
+
+let greeting;
+
+const customStyle = {
+  color: ""
+};
+
+if (currentTime < 12) {
+  greeting = "Good Morning";
+  customStyle.color = "red";
+} else if (currentTime < 18) {
+  greeting = "Good Afternoon";
+  customStyle.color = "green";
+} else {
+  greeting = "Good Night";
+  customStyle.color = "blue";
+}
+
+ReactDOM.render(
+  <h1 className="heading" style={customStyle}>
+    {greeting}
+  </h1>,
+  document.getElementById("root")
+);
+
+//Create a React app from scratch.
+//Show a single h1 that says "Good morning" if between midnight and 12PM.
+//or "Good Afternoon" if between 12PM and 6PM.
+//or "Good evening" if between 6PM and midnight.
+//Apply the "heading" style in the styles.css
+//Dynamically change the color of the h1 using inline css styles.
+//Morning = red, Afternoon = green, Night = blue.
+
+```
+
+## 401. React Components
+
+componentização seria como o EJS, arquivos separados de React seriam chamados em outro arquivo reunindo essas partes quando necessário. 
+
+```mermaid
+graph TD;
+	Heading.jsx-->App.jsx
+	List.jsx-->App.jsx
+	App.jsx-->App.js
+```
+
+como fica o List
+
+```react
+import React from "react";
+
+function List() {
+  return (
+    <ul>
+      <li>Bacon</li>
+      <li>Jamon</li>
+      <li>Noodles</li>
+    </ul>
+  );
+}
+
+export default List;
+
+```
+
+como fica o Heading
+
+```react
+import React from "react";
+
+function Heading() {
+  return <h1>My Favourite Foods</h1>;
+}
+
+export default Heading;
+
+```
+
+como fica o app.jsx
+
+```react
+import React from "react";
+import Heading from "./Heading";
+import List from "./List";
+
+function App() {
+  return (
+    <div>
+      <Heading />
+      <List />
+      <List />
+    </div>
+  );
+}
+
+export default App;
+
+```
+
+como fica o index.js chamando o app.jsx
+
+```react
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./components/App";
+
+ReactDOM.render(<App />, document.getElementById("root"));
+
+```
+
+## 402. React Components Practice
+
+`https://codesandbox.io/s/react-components-practice-completed-2ksvn?fontsize=14&hidenavigation=1&theme=dark&file=/src/index.js`
