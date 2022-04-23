@@ -22,7 +22,7 @@ falando sobre github e explicando como funciona
 
 ​                     origin/main pode ser qualquer nome
 ​                                           
-`git remodte add origin/main  "url do repositório"`
+`git remote add origin/main  "url do repositório"`
 `git push -u origin main` pra mandar pra main
 
 ## 256. GitHub Private Repos are now Free! ?
