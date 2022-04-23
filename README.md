@@ -12,7 +12,7 @@ Entre na pasta do projeto e execute o index.html
 
 | N°  | Prática  do curso                                                                                | Descrição                                                 | O que foi usado                         |
 |---|------------------------------------------------------------------------------------------|-----------------------------------------------------------|------------------------------------|
-|  10 | [Security Secrets](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Prática-10-Secutiry-Secrets)                         |AINDA EM ANDAMENTO   | ainda em andamento                |
+|  10 | [Security Secrets](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Prática-10-Secutiry-Secrets)                         |Um site para segredos com Seção de login| EJS, Mongoose, Sessions              |
 |  9 | [API RESTful Wiki](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Prática-9-API-RESTful-Wiki)                         | Uma API RESTful que puxa dados de uma Wiki composta por infirmações que vc coloca | Express, MongoDB e Mongoose                |
 |  8 | [Blog Website](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Pr%C3%A1tica-8-EJS-Express-Blog)                         | Um pequeno blog com sistema para posts      | JS, EJS, Express, MongoDB e Mongoose                |
 |  7 | [ToDo version 2.0](https://github.com/JefteMartins/Projetos-cursoWebDev/tree/main/Prática-7-ToDo-List-v2)                         | um Sistema de lista To Do              | JS, EJS, Express, MongoDB e Mongoose                 |
