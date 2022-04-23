@@ -1,14 +1,10 @@
 # Curso The Complete 2022 Web Development Bootcamp by AngelaYu
-### andamento: ~90% || 38/39 seções de conteúdo || 472/503 Capítulos
-## O curso atualizou em abril e foi adicionado 6 seções de web3
-Curso da Angela Yu
-Já comecei alguns cursos de web dev mas nada nunca a fundo, decidi fazer esse da Angela Yu para aprender mais coisas e tudo desde o começo em ordem, visto que sempre vi tudo separado.
+### andamento: ~95% || 38/39 seções de conteúdo || 482/503 Capítulos
+#Atualmente estou na seção de React
+
 Assim creio poder melhorar minha base, treinar meu inglês e ainda aprender coisas novas.
 
 As anotações são como um diário de bordo em que eu coloco algo que foi visto na aula pra relembrar quando tiver que achar algo e rever a aula
-
-Para ver cada um dos projetos, baixa pastar a pasta individualmente, ou toda ela.
-Entre na pasta do projeto e execute o index.html
 
 | N°  | Prática  do curso                                                                                | Descrição                                                 | O que foi usado                         |
 |---|------------------------------------------------------------------------------------------|-----------------------------------------------------------|------------------------------------|
