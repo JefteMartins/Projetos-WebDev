@@ -1380,3 +1380,24 @@ a função deleteNote do jsx recebe ele como parametro e o handle click é quem 
   }
 ```
 
+## 435. React Dependencies & Styling the Keeper App
+
+adicionando amterial ui
+
+```bash
+npm install @material-ui/core
+npm install @material-ui/icons
+```
+
+sao basicamente componentes pre feitos que vc so edita
+
+usados-
+
+DeleteIcon
+AddIcon
+
+Button
+
+> floating action button - Fab
+
+um Zoom componente pra fazer botao "surgir" como zoom quando ele for renderizado
