@@ -1,8 +1,4 @@
-# Curso The Complete 2022 Web Development Bootcamp by AngelaYu
-### andamento: ~95% || 38/39 seções de conteúdo || 482/503 Capítulos
-#Atualmente estou na seção de React
-
-Assim creio poder melhorar minha base, treinar meu inglês e ainda aprender coisas novas.
+# Terminado. Abril/2022
 
 As anotações são como um diário de bordo em que eu coloco algo que foi visto na aula pra relembrar quando tiver que achar algo e rever a aula
 
