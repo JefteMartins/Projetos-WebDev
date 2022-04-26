@@ -603,3 +603,559 @@ export default App;
 
 ```
 
+## 415. Javascript ES6 Map/Filter/Reduce
+
+refazer pq eu nao salvei quando fiz as anotações  e perdi 
+
+:(
+
+## 416. Javascript ES6 Arrow functions
+
+## 417. Keeper App Project - Part 2
+
+usar o arquivo json notes e renderizar as notas num componente com .map
+
+## 418. React Conditional Rendering with the Ternary Operator & AND Operator
+
+`contition ? ifTrue : ifFalse`
+
+uso bastante importante pois é uma expressão, não um statement, ja que o JSX nao aceita statement 
+
+## 419. Conditional Rendering Practice
+
+renderizar um componente usando ternário
+
+resumo, se tiver registrado aparece Login, se nao, aparece registrado.
+
+` <button type="submit">{props.isRegistered ? "Login" : "Register"}</button>`
+
+## 420. State in React - Declarative vs. Imperative Programming
+
+exemplo imperativo
+
+```jsx
+import React from "react";
+
+var isDone = false;
+
+function strike() {
+  isDone = true;
+}
+
+function unStrike() {
+  isDone = false;
+}
+
+function App() {
+  return (
+    <div>
+      <p style={isDone ? { textDecoration: "line-through" } : null}>Buy milk</p>
+      <button onClick={strike}>Change to strike through</button>
+      <button onClick={unStrike}>Change back</button>
+    </div>
+  );
+}
+
+export default App;
+
+```
+
+## 421. React Hooks - useState
+
+```jsx
+import React, { useState } from "react";
+//useState pra nao ficar usando React.useState toda hora
+function App() {
+  const [count, setCount] = useState(0);
+	//destructuring
+	//useState tem um valor e uma função, o count pega o valor do useState, 0, e o setCount passa a função.
+  function increase() {
+    setCount(count + 1);//função passada
+  }
+  function decrease() {
+    setCount(count - 1);
+  }
+
+  return (
+    <div className="container">
+      <h1>{count}</h1>
+      <button onClick={decrease}>-</button>
+      <button onClick={increase}>+</button>
+    </div>
+  );
+}
+
+export default App;
+
+```
+
+## 422. useState Hook Practice
+
+```jsx
+import React, { useState } from "react";
+
+function App() {
+  setInterval(upDate, 1000);
+
+  let time = new Date().toLocaleTimeString();
+  let [date, showDate] = useState("time");
+
+  function upDate() {
+    let newTime = new Date().toLocaleTimeString();
+    showDate((date = newTime));
+  }
+
+  return (
+    <div className="container">
+      <h1>{date}</h1>
+      <button onClick={upDate}>Get Time</button>
+    </div>
+  );
+}
+
+export default App;
+
+```
+
+## 423. Javascript ES6 Object & Array Destructuring
+
+quando usando destucturing garantir que as variáveis são únicas
+
+```jsx
+ import animals from "./data";
+console.log(animals);
+const [cat, dog] = animals;
+console.log(cat);
+const { name: catName, sound: catSound } = cat;
+
+console.log(catName)://log Cat
+
+```
+
+com nested objects
+
+`const { name: catName, sound: catSound, feedingRequirements: {food, water} } = cat;`
+
+## 424. Javascript ES6 Destructuring Challenge Solution
+
+```jsx
+const cars = [
+  {
+    model: "Honda Civic",
+    coloursByPopularity: ["black", "silver"],
+    speedStats: {
+      topSpeed: 140,
+      zeroToSixty: 8.5
+    }
+  },
+  {
+    model: "Tesla Model 3",
+    coloursByPopularity: ["red", "white"],
+    speedStats: {
+      topSpeed: 150,
+      zeroToSixty: 3.2
+    }
+  }
+];
+
+export default cars;
+
+```
+
+```jsx
+import React from "react";
+import ReactDOM from "react-dom";
+import cars from "./practice";
+
+const [honda, tesla] = cars;
+
+const {
+  speedStats: { topSpeed: hondaTopSpeed }
+} = honda;
+const {
+  speedStats: { topSpeed: teslaTopSpeed }
+} = tesla;
+
+const {
+  coloursByPopularity: [hondaTopColour]
+} = honda;
+const {
+  coloursByPopularity: [teslaTopColour]
+} = tesla;
+
+ReactDOM.render(
+  <table>
+    <tr>
+      <th>Brand</th>
+      <th>Top Speed</th>
+      <th>Top Colour</th>
+    </tr>
+    <tr>
+      <td>{tesla.model}</td>
+      <td>{teslaTopSpeed}</td>
+      <td>{teslaTopColour}</td>
+    </tr>
+    <tr>
+      <td>{honda.model}</td>
+      <td>{hondaTopSpeed}</td>
+      <td>{hondaTopColour}</td>
+    </tr>
+  </table>,
+  document.getElementById("root")
+);
+
+```
+
+## 425. Event Handling in React
+
+```jsx
+import React, { useState } from "react";
+
+function App() {
+  const [headingText, setHeadingText] = useState("Hello");
+  const [isMousedOver, setMouseOver] = useState(false);
+
+  function handleClick() {
+    setHeadingText("Submitted");
+  }
+  function handleMouseOver() {
+    setMouseOver(true);
+  }
+  function handleMouseOut() {
+    setMouseOver(false);
+  }
+  return (
+    <div className="container">
+      <h1>{headingText}</h1>
+      <input type="text" placeholder="What's your name?" />
+      <button
+        style={{ backgroundColor: isMousedOver ? "black" : "white" }}
+        onClick={handleClick}
+        onMouseOver={handleMouseOver}
+        onMouseOut={handleMouseOut}
+      >
+        Submit
+      </button>
+    </div>
+  );
+}
+
+export default App;
+
+```
+
+## 426. React Forms
+
+
+
+```jsx
+import React, { useState } from "react";
+
+function App() {
+  const [name, setName] = useState("");
+  const [headingText, setHeading] = useState("");
+
+  function handleChange(event) {
+    console.log(event.target.value);
+    setName(event.target.value);
+  }
+
+  function handleClick(event) {
+    setHeading(name);
+
+    event.preventDefault();
+  }
+
+  return (
+    <div className="container">
+      <h1>Hello {headingText}</h1>
+      <form onSubmit={handleClick}>
+        <input
+          onChange={handleChange}
+          type="text"
+          placeholder="What's your name?"
+          value={name}
+        />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  );
+}
+
+export default App;
+
+```
+
+## 427. Class Components vs. Functional Components
+
+a ideia é basicamente a mesma, mas precisa extender, herdar, uma classe de react
+
+```jsx
+class App extends React.Component {
+	render() {
+		return <hl>Hello</hi>;
+	}
+}
+
+export default App;
+```
+
+antes se usava mais classes por conta do state
+
+basicamente o hooks veio pra acabar com isso
+
+## 428 & 429. Changing Complex State
+
+```jsx
+import React, { useState } from "react";
+
+function App() {
+  const [contact, setContact] = useState({
+    fName: "",
+    lName: "",
+    email: ""
+  });
+
+  function handleChange(event) {
+    const { name, value } = event.target;
+
+    setContact((prevValue) => {
+      if (name === "fName") {
+        return {
+          fName: value,
+          lName: prevValue.lName,
+          email: prevValue.email
+        };
+      } else if (name === "lName") {
+        return {
+          fName: prevValue.fName,
+          lName: value,
+          email: prevValue.email
+        };
+      } else if (name === "email") {
+        return {
+          fName: prevValue.fName,
+          lName: prevValue.lName,
+          email: value
+        };
+      }
+    });
+  }
+  return (
+    <div className="container">
+      <h1>
+        Hello {contact.fName} {contact.lName}
+      </h1>
+      <p>{contact.email}</p>
+      <form>
+        <input
+          onChange={handleChange}
+          value={contact.fName}
+          name="fName"
+          placeholder="First Name"
+        />
+        <input
+          onChange={handleChange}
+          value={contact.lName}
+          name="lName"
+          placeholder="Last Name"
+        />
+        <input
+          onChange={handleChange}
+          value={contact.email}
+          name="email"
+          placeholder="Email"
+        />
+        <button>Submit</button>
+      </form>
+    </div>
+  );
+}
+export default App;
+```
+
+## 430. Javascript ES6 Spread Operator
+
+```jsx
+import React, { useState } from "react";
+
+function App() {
+  const [contact, setContact] = useState({
+    fName: "",
+    lName: "",
+    email: ""
+  });
+
+  function handleChange(event) {
+    const { name, value } = event.target;
+
+    setContact(prevValue => {
+      return {
+        ...prevValue,
+        [name]: value
+      };
+    });
+  }
+
+  return (
+    <div className="container">
+      <h1>
+        Hello {contact.fName} {contact.lName}
+      </h1>
+      <p>{contact.email}</p>
+      <form>
+        <input
+          onChange={handleChange}
+          name="fName"
+          value={contact.fName}
+          placeholder="First Name"
+        />
+        <input
+          onChange={handleChange}
+          name="lName"
+          value={contact.lName}
+          placeholder="Last Name"
+        />
+        <input
+          onChange={handleChange}
+          name="email"
+          value={contact.email}
+          placeholder="Email"
+        />
+        <button>Submit</button>
+      </form>
+    </div>
+  );
+}
+
+export default App;
+
+```
+
+## 431. Javascript ES6 Spread Operator Practice
+
+```jsx
+import React, { useState } from "react";
+
+function App() {
+  const [inputText, setInputText] = useState(""); //cria a variavel e função do state
+  const [items, setItems] = useState([]); //array que vai segurar os itens para renderizar na tela
+
+  function handleChange(event) {
+    const newValue = event.target.value;
+    setInputText(newValue); //pegando o valor do input
+  }
+
+  function addItem() {
+    setItems(prevItems => {
+      return [...prevItems, inputText]; //adicionando a lista os itens do estado anterior mas o atual
+    });
+    setInputText(""); //retornando campo a vazio quando clica em adicionar
+  }
+
+  return (
+    <div className="container">
+      <div className="heading">
+        <h1>To-Do List</h1>
+      </div>
+      <div className="form">
+        <input onChange={handleChange} type="text" value={inputText} />
+        <button onClick={addItem}>
+          <span>Add</span>
+        </button>
+      </div>
+      <div>
+        <ul>
+          {items.map(todoItem => (
+            <li>{todoItem}</li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  );
+}
+
+export default App;
+
+```
+
+## 432. Managing a Component Tree
+
+```jsx
+import React from "react";
+
+function ToDoItem(props) {
+  return (
+    <div
+      onClick={() => {
+        props.onChecked(props.id); // callback pra so chamar quando clicar e passa o ID - 1
+      }}
+    >
+      <li>{props.text}</li>
+    </div>
+  );
+}
+
+export default ToDoItem;
+
+```
+
+```jsx
+import React, { useState } from "react";
+import ToDoItem from "./ToDoItem";
+
+function App() {
+  const [inputText, setInputText] = useState("");
+  const [items, setItems] = useState([]);
+
+  function handleChange(event) {
+    const newValue = event.target.value;
+    setInputText(newValue);
+  }
+
+  function addItem() {
+    setItems(prevItems => {
+      return [...prevItems, inputText];
+    });
+    setInputText("");
+  }
+
+  function deleteItem(id) { //delete recebe id
+    setItems(prevItems => {
+      return prevItems.filter((item, index) => {
+        return index !== id; //tudo que tiver id diferente do passado volta pro array
+      });
+    });
+  }
+
+  return (
+    <div className="container">
+      <div className="heading">
+        <h1>To-Do List</h1>
+      </div>
+      <div className="form">
+        <input onChange={handleChange} type="text" value={inputText} />
+        <button onClick={addItem}>
+          <span>Add</span>
+        </button>
+      </div>
+      <div>
+        <ul>
+          {items.map((todoItem, index) => (
+            <ToDoItem
+              key={index}
+              id={index}
+              text={todoItem}
+              onChecked={deleteItem} // passando o valor do id na função delete - 2
+            />
+          ))}
+        </ul>
+      </div>
+    </div>
+  );
+}
+
+export default App;
+
+```
+
