@@ -1159,3 +1159,224 @@ export default App;
 
 ```
 
+## 434. Keeper App Project - Part 3
+
+**pass 1** - Criar o state e passar os valores nos inputs
+
+```jsx
+import React, { useState } from "react";
+
+function CreateArea() {
+
+  const [note, setNote] = useState({ //criando passando valores default
+    title: "",
+    content: ""
+  });
+
+  return (
+    <div>
+      <form>
+        <input name="title" value={note.title}/*passando titulo da nota como value no input*/ placeholder="Title" />
+        <textarea name="content" value={note.content}/*passando conteudo da nota como value no input*/ placeholder="Take a note..." rows="3" />
+        <button>Add</button>
+      </form>
+    </div>
+  );
+}
+
+export default CreateArea;
+
+```
+
+**passo 2** - criando método handle change para mudar o estado do input e atualizar
+
+```jsx
+{...}
+  const [note, setNote] = useState({
+    title: "",
+    content: ""
+  });
+
+  function handleChange(event) {
+    const { name, value } = event.target; //pegando o name e value do evento, dependendo do value do input
+
+    setNote(prevNote => {
+      return {
+        ...prevNote, //passando valor antigo dos inputs
+        [name]: value //atualizando novo valor do input
+      };
+    });
+  }
+
+
+  return (
+    <div>
+      <form>
+        <input name="title" onChange={handleChange} /*chamando o evento de mudança de valores do input*/ value={note.title} placeholder="Title" />
+        <textarea name="content" onChange={handleChange} /*chamando o evento de mudança de valores do input*/ value={note.content} placeholder="Take a note..." rows="3" />
+        <button>Add</button>
+      </form>
+    </div>
+  );
+}
+
+export default CreateArea;
+
+```
+
+**passo 3** - adicionar funcionalidade ao botao para salvar a nota
+
+```jsx
+<div>
+      <form>
+        <input name="title" onChange={handleChange} value={note.title} placeholder="Title" />
+        <textarea name="content" onChange={handleChange} value={note.content} placeholder="Take a note..." rows="3" />
+        <button onClick={submitNote}/*adicionado evento para chamar o submitNote*/>Add</button>
+      </form>
+    </div>
+```
+
+no app jsx foi criado uma função para adicionar as notas e passando essa função para o CreateAreaJSX por meio das propriedades do CreateArea
+
+```jsx
+function App() {
+
+  function addNote(note) {
+
+  }
+
+
+  return (
+    <div>
+      <Header />
+      <CreateArea onAdd={addNote}/> <!-- passando a funçao addNote como onAdd para o CreateArea -->
+      <Note key={1} title="Note title" content="Note content" />
+      <Footer />
+    </div>
+  );
+}
+```
+
+e passado a nota no submit note para retornar o addNote
+
+```jsx
+  function submitNote (event) {
+    props.onAdd(note);
+    event.preventDefault();
+  }
+```
+
+**passo 4** - adicionar as notas em um array
+
+no app jsx
+`const [notes, setNotes] = useState([]);`
+
+começando com um array vazio pois será o valor default
+
+segue o padrão  de adicionar com spread operator
+
+```jsx
+const [notes, setNotes] = useState([]);
+
+  function addNote(note) {
+    setNotes(prevNotes => {
+      return [...prevNotes, note];
+    }
+  );
+ }
+```
+
+criando o map para exibir as notas
+
+```jsx
+  return (
+    <div>
+      <Header />
+      <CreateArea onAdd={addNote}/>
+      {notes.map((noteItem, index) => {
+        return <Note title={noteItem.title} content={noteItem.content}/>
+      })}
+      <Footer />
+    </div>
+  );
+```
+
+**passo 5- ** deletando notas
+
+vc primeiro vai no botão de click, cria uma função para "segurar" o click, é dai que vem o handleClick
+
+`<button *onClick*={handleClick}>DELETE</button>`
+
+cria a classe que vai chamar a função delete do app jsx
+
+```jsx
+  function handleClick(){
+    props.onDelete(props.id); //atenção ao props.id que ainda nao foi criado mas ja vai ser e vai ficar claro
+  }
+//vai chamar o onDelete
+```
+
+no note cria o on delete chamando a função de deletar que vai ficar no app
+
+```jsx
+  <Note
+            title={noteItem.title}
+            content={noteItem.content}
+            onDelete={deleteNote}
+          />
+```
+
+cria a função de deletar no app jsx
+
+```jsx
+ function deleteNote(id) {
+    setNotes((prevNotes) => {
+      return prevNotes.filter((noteItem, index) => {
+        return index !== id;
+      });
+    });
+  }
+// vai retornar tudo que o index for diferente do id que gerou o trigger
+```
+
+cria o id e key no note usando index do map
+
+```jsx
+ {notes.map((noteItem, index) => {
+        return (
+          <Note
+            key={index}
+            id={index}
+            title={noteItem.title}
+            content={noteItem.content}
+            onDelete={deleteNote}
+          />
+        );
+      })}
+//cada nota vai ter um key baseado no index do map para se manter único
+```
+
+LEMBRAR QUE NO HANDLE CLICK TEM QUE PASSAR O ID
+a função deleteNote do jsx recebe ele como parametro e o handle click é quem passa o parametro com o on delete
+
+```jsx
+  function handleClick(){
+    props.onDelete(props.id);
+  }
+//vai chamar o onDelete
+```
+
+**Bonus** - limpando os inputs quando se adiciona uma nota
+
+```jsx
+  function submitNote (event) {
+    props.onAdd(note);
+      //quando criar uma nota ele faz o set note para o valor default "zerando" o estado de onchange
+    setNote({
+      title: "",
+      content: ""
+    });
+    event.preventDefault();
+  }
+```
+
