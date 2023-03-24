@@ -82,6 +82,7 @@ utilizatia a classe `col-lg-3 col-md-4 col-sm-6`
 	<div class="col-lg-3 col-md-4 col-sm-6">col-md-6</div>
 	<div class="col-lg-3 col-md-4 col-sm-6">col-md-6</div>
 </div>
+
 ###### 72. Adding Grid Layouts to Our Website
 prático
 ###### 73. A note about css link order
