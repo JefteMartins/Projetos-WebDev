@@ -84,6 +84,7 @@ os elementos que sao inline pode alterar o display para block no CSS assim como 
 >Relative
 >Absolute
 >Fixed
+
 ## 48. Absolute positioning
 localiza o elemento de acordo com o elemento pai que ele está inserido
 ###### 49. The Dark Art of Centering Elements with CSS
