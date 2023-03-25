@@ -364,7 +364,7 @@ como o projeto ainda é pequeno, o que vai ser feito é criar um novo projeto re
 
 `Main.tsx`
 
-![erro](images\erroMaintsx.png)
+<img src="https://github.com/JefteMartins/Projetos-WebDev/blob/main/anota%C3%A7%C3%B5es-RocketSeat/React/images/erroMaintsx.png?raw=true" />
 
 Fix:
 `(document.getElementById('root')!)`
@@ -378,59 +378,61 @@ Sem erros aparente
 **Componentes:**
 
 1 **Post**
-![erro](images\errorPost.png)
+
+<img src="https://github.com/JefteMartins/Projetos-WebDev/blob/main/anota%C3%A7%C3%B5es-RocketSeat/React/images/errorPost.png?raw=true" />
 
 Fix:
 
 criação de interfaces do que se recebe!
-![erro](images\postFix.png)
+
+<img src="https://github.com/JefteMartins/Projetos-WebDev/blob/main/anota%C3%A7%C3%B5es-RocketSeat/React/images/postFix.png?raw=true" />
 
 **Events:**
 
-![erro](images\eventsError.png)
+<img src="https://github.com/JefteMartins/Projetos-WebDev/blob/main/anota%C3%A7%C3%B5es-RocketSeat/React/images/eventsError.png?raw=true" />
 
 O ReactTS não reconhece o event, então temos que usar tipos relacionados ao usado
 
 *Form Event*
 
-![erro](images\formEventFix.png)
+<img src="https://github.com/JefteMartins/Projetos-WebDev/blob/main/anota%C3%A7%C3%B5es-RocketSeat/React/images/formEventFix.png?raw=true" />
 
 _ChangeEvent_
 
-![erro](images\changeEventFix.png)
+<img src="https://github.com/JefteMartins/Projetos-WebDev/blob/main/anota%C3%A7%C3%B5es-RocketSeat/React/images/changeEventFix.png?raw=true" />
 
 O evento onChange precisa de um changeEvent. E como não foi exatamente o form que disparou essa função, mas um elemento dele, tem que se passar o generics `<HTMLTextAreaElement>` informando que um elemento do textArea acionou
 
 _InvalidEvent_
 
-![erro](images\invalidEventFix.png)
+<img src="https://github.com/JefteMartins/Projetos-WebDev/blob/main/anota%C3%A7%C3%B5es-RocketSeat/React/images/invalidEventFix.png?raw=true" />
 
 _DeleteComment_
 
-![erro](images\deleteCommentFix.png)
+<img src="https://github.com/JefteMartins/Projetos-WebDev/blob/main/anota%C3%A7%C3%B5es-RocketSeat/React/images/deleteCommentFix.png?raw=true" />
 
 **2. Comment**
 
 Seguem os mesmo erros de tipos, então só colocarei o antes e depois
 
-![erro](images\commentError.png)
+<img src="https://github.com/JefteMartins/Projetos-WebDev/blob/main/anota%C3%A7%C3%B5es-RocketSeat/React/images/commentError.png?raw=true" />
 
 Com uma única diferença de que ele recebe uma função que tem como parametro string e nao retorna nada.
 
-![erro](images\commentFix.png)
+<img src="https://github.com/JefteMartins/Projetos-WebDev/blob/main/anota%C3%A7%C3%B5es-RocketSeat/React/images/commentFix.png?raw=true" />
 
 **3. Avatar**
 
-![erro](images\avatarError.png)
-![erro](images\avatarFix.png)
+<img src="https://github.com/JefteMartins/Projetos-WebDev/blob/main/anota%C3%A7%C3%B5es-RocketSeat/React/images/avatarError.png?raw=true" />
+<img src="https://github.com/JefteMartins/Projetos-WebDev/blob/main/anota%C3%A7%C3%B5es-RocketSeat/React/images/avatarFix.png?raw=true" />
 
 ### Extensão de interface
 
 dando exemplos de caso a gente queira passar qualquer tipo de propriedade de um elemento HTML numa interface typescript
 
-![erro](images\extension.png)
+<img src="https://github.com/JefteMartins/Projetos-WebDev/blob/main/anota%C3%A7%C3%B5es-RocketSeat/React/images/extension.png?raw=true" />
 
-![erro](images\extension2.png)
+<img src="https://github.com/JefteMartins/Projetos-WebDev/blob/main/anota%C3%A7%C3%B5es-RocketSeat/React/images/extension2.png?raw=true" />
 
 O que foi feito neste caso é o seguinte
 Imagine que vc quer adicionar alguma propriedade de um elemento img, dentre os inúmeros que existem. Mas pra isso teria que ficar adicionando cada propriedade desejada na construção do componente. O que foi feito na imagem permite o acesso a todos os tipos de propriedades presente dentro de ImgHTMLAttributes que por sua vez herda as propriedades HTMLAttributes
