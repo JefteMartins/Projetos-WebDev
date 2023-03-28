@@ -86,7 +86,8 @@ a organização em questão foi a seguinte
 
 ```CSS
 .Classe + .Classe {
- /* aplicado quando há um elemento de classe Classe depois de um elemento da classe Classe Ex: 2 posts seguidos, somente o de baixo vai ser aplicado esse CSS */
+ /* aplicado quando há um elemento de classe Classe depois de um elemento da classe Classe 
+    Ex: 2 posts seguidos, somente o de baixo vai ser aplicado esse CSS */
 }
 ```
 
