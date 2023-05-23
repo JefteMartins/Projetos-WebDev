@@ -1,6 +1,5 @@
 # Curso de .Net Core
 
-
 ## EF Core
 
 **Aula 21** - O que faremos - EF Core intro
@@ -16,7 +15,7 @@ Instalação, pelo NuGet, do EF, do EF Design, do EF Tool e do SQLite
 **Aula 24** - Criando contexto
 o codigo do contexto do banco de dados é padrão
 
-```C#
+```csharp
 namespace ProEventos.API.Data
 {
     public class DataContext : DbContext
@@ -38,5 +37,40 @@ exibir conteúdo do BD pelo .net
 O contepudo mostrado nesse capítulo foi bem direto
 Gostei da forma como o .net é uma ferramenta que te manda uma API funcional pré fabricada. O Entity framework tambem automatiza bastante coisa tornando o trabalho mais tranquilo, especialmente com o migrations. 
 
-
 ## Angular
+
+### Rodando o projeto
+
+>  `ng serve`
+
+**Aula 34**  Criando componente
+
+` ng generate component /local/local` 
+
+ou
+`ng g c [nome do componente]`
+
+**Aula 35** - Usando componentes
+
+Para utilizar o componente deve chamar como tag na forma em que está sua nomenclatura do **seletor**. Este seletor fica no arquivo typescript [nomeDoComponente].component.ts
+
+Usaremos como exemplo o componente **palestrantes**
+
+```ts
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-palestrantes',
+  templateUrl: './palestrantes.component.html',
+  styleUrls: ['./palestrantes.component.css']
+})
+export class PalestrantesComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
+
+```
