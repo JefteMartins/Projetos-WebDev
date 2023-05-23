@@ -72,5 +72,26 @@ export class PalestrantesComponent implements OnInit {
   }
 
 }
-
 ```
+
+o uso do componente seria 
+
+```html
+<app-palestrantes> </app-palestrantes> 
+```
+
+Lembrar de sempre adicionar o componente no declarations do NgModule no `app.module.ts` quando feito de forma manual, já que automaticamente a linha de comando e criação de componente por cliques adiciona automaticamente
+
+Bem como adicionar os modulos dentro do imports quandof or criado modulos
+
+
+
+**Aula 36** - Diretiva ngFor
+
+
+
+diretivas sao recursos do Angular que permite manipular o HTML
+
+
+
+exibir informações do ts no HTML
