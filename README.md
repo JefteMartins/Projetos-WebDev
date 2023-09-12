@@ -1,10 +1,10 @@
-# Terminado. Abril/2022
 
 As anotações são como um diário de bordo em que eu coloco algo que foi visto na aula pra relembrar quando tiver que achar algo e rever a aula
 
 | N°  | Prática  do curso                                                                                | Descrição                                                 | O que foi usado                         |
 |---|------------------------------------------------------------------------------------------|-----------------------------------------------------------|------------------------------------|
-|  12 | [SocialRocket](https://github.com/JefteMartins/SocialRocket)                         | Uma pequena rede social   |React + Typescript          |
+|  13 | [ProEventos](https://github.com/JefteMartins/ProEventos)                         | Uma plataforma de eventos   | .Net, angular e SQLite         |
+|  12 | [SocialRocket](https://github.com/JefteMartins/SocialRocket)                         | Uma pequena rede social   |React, Typescript          |
 |  11 | [Keeper](https://github.com/JefteMartins/KeeperApp)                         |Um site que simula o google keeper          |React            |
 |  10 | [Security Secrets](https://github.com/JefteMartins/SecretsSite)                         |Um site para segredos com Seção de login| EJS, Mongoose, Sessions, oAuth              |
 |  9 | [API RESTful Wiki](https://github.com/JefteMartins/API-RESTFul-Wiki)                         | Uma API RESTful que puxa dados de uma Wiki composta por infirmações que vc coloca | Express, MongoDB e Mongoose                |
