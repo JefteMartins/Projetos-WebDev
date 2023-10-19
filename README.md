@@ -22,6 +22,7 @@ As anotações são como um diário de bordo em que eu coloco algo que foi visto
 
 |   | Práticas a parte e Pequenos projetos durante o curso                                                                                 | Descrição                                                 | O que foi usado                         |
 |---|------------------------------------------------------------------------------------------|-----------------------------------------------------------|------------------------------------|
+|   | [Práticas de Processing]([https://github.com/JefteMartins/PersonalSite2](https://github.com/JefteMartins/ProcessingTreino))                         | Estudos de processing          | Processing            |
 |   | [My site](https://github.com/JefteMartins/PersonalSite2)                         | Um site pessoal tendo como base os projetos 2 e 3            | HTML, CSS e Bootstrap              |
 |   | [Weather](https://github.com/JefteMartins/WeatherAPIConsuption)                   | Treinando express puxando as informações de clima de uma cidade digitada         | HTML, JS, Node e Express             |
 |   | [Calculator-BMI](https://github.com/JefteMartins/CalculatorBMI)                   | Treinando express calculando IMC ou soma simples        | HTML, JS, Node e Express             |
