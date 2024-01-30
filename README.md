@@ -3,6 +3,7 @@ As anotações são como um diário de bordo em que eu coloco algo que foi visto
 
 | N°  | Prática  do curso                                                                                | Descrição                                                 | O que foi usado                         |
 |---|------------------------------------------------------------------------------------------|-----------------------------------------------------------|------------------------------------|
+|  14 | [Inse_2021]([https://github.com/JefteMartins/ProEventos](https://github.com/JefteMartins/Projeto_INSE_2021))                         | Projeto de dados com INSE 2021   | .Net, React e SQL Server         |
 |  13 | [ProEventos](https://github.com/JefteMartins/ProEventos)                         | Uma plataforma de eventos   | .Net, angular e SQLite         |
 |  12 | [SocialRocket](https://github.com/JefteMartins/SocialRocket)                         | Uma pequena rede social   |React, Typescript          |
 |  11 | [Keeper](https://github.com/JefteMartins/KeeperApp)                         |Um site que simula o google keeper          |React            |
