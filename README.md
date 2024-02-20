@@ -1,7 +1,7 @@
 
 As anotações são como um diário de bordo em que eu coloco algo que foi visto na aula pra relembrar quando tiver que achar algo e rever a aula
 
-| N°  | Prática  do curso                                                                                | Descrição                                                 | O que foi usado                         |
+| N°  | Projetos                                                                               | Descrição                                                 | O que foi usado                         |
 |---|------------------------------------------------------------------------------------------|-----------------------------------------------------------|------------------------------------|
 |  13 | [Inse_2021](https://github.com/JefteMartins/Projeto_INSE_2021)                         | Projeto de dados com INSE 2021   | .Net, React e SQL Server         |
 |  12 | [ProEventos](https://github.com/JefteMartins/ProEventos)                         | Uma plataforma de eventos   | .Net, angular e SQLite         |
