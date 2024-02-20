@@ -1,0 +1,2 @@
+# ObisidianNotes
+anotações do obisidian

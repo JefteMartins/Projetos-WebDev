@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"type":"text","text":"Evento\n","id":"61396da1f68e1add","x":-300,"y":22,"width":250,"height":60,"color":"1"},
+		{"type":"text","text":"Lote","id":"0960d4cafab542ad","x":-300,"y":200,"width":250,"height":60},
+		{"type":"text","text":"Palestrantes","id":"a9a7847bf76c8655","x":160,"y":22,"width":250,"height":64},
+		{"type":"text","text":"Rede Social","id":"cc3403b5a3c29bd0","x":160,"y":122,"width":250,"height":60},
+		{"type":"text","text":"Palestrante Evento","id":"b67a02e6d8b737ec","x":-90,"y":-100,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"6c7381caa0453566","fromNode":"61396da1f68e1add","fromSide":"bottom","toNode":"0960d4cafab542ad","toSide":"top"},
+		{"id":"39eb7f376d775615","fromNode":"61396da1f68e1add","fromSide":"bottom","toNode":"cc3403b5a3c29bd0","toSide":"left"},
+		{"id":"acda07407c939e47","fromNode":"61396da1f68e1add","fromSide":"right","toNode":"b67a02e6d8b737ec","toSide":"bottom"},
+		{"id":"ef86f4dcacb574b9","fromNode":"a9a7847bf76c8655","fromSide":"left","toNode":"b67a02e6d8b737ec","toSide":"bottom"},
+		{"id":"8ef5e56baf0dfba0","fromNode":"a9a7847bf76c8655","fromSide":"bottom","toNode":"cc3403b5a3c29bd0","toSide":"top"}
+	]
+}
